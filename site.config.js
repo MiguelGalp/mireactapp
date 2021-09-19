@@ -12,7 +12,7 @@ module.exports = {
   author: 'Vova Kenih',
 
   // open graph metadata (optional)
-  description: 'Welcome to my personal internet habitat 👋',
+  description: 'Welcome 👋',
   socialImageTitle: 'Vova Kenih',
   socialImageSubtitle: 'Welcome 👋',
 
