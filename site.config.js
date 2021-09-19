@@ -14,7 +14,7 @@ module.exports = {
   // open graph metadata (optional)
   description: 'Welcome to my personal internet habitat 👋',
   socialImageTitle: 'Vova Kenih',
-  socialImageSubtitle: 'Welcome to my personal internet habitat 👋',
+  socialImageSubtitle: 'Welcome 👋',
 
   // social usernames (optional)
   twitter: 'vovakenih',
