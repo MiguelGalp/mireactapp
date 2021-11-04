@@ -51,7 +51,7 @@ import styles from './styles.module.css'
 //   }
 // )
 
-const Pdf = dynamic(() => import('react-notion-x').then((notion) => notion.Pdf))
+// const Pdf = dynamic(() => import('react-notion-x').then((notion) => notion.Pdf))
 
 const Equation = dynamic(() =>
   import('react-notion-x').then((notion) => notion.Equation)
@@ -248,7 +248,6 @@ export const NotionPage: React.FC<types.PageProps> = ({
           collectionRow: CollectionRow,
           tweet: Tweet,
           modal: Modal,
-          pdf: Pdf,
           equation: Equation
         }}
         recordMap={recordMap}
