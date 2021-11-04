@@ -1,25 +1,25 @@
 module.exports = {
   // where it all starts -- the site's root Notion page (required)
-  rootNotionPageId: 'c2926a9455f145cc923069b7d58a3edb',
+  rootNotionPageId: '90f568013e514206839a18df53ba8a45',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Vova Kenih',
-  domain: 'vovakenih.com',
-  author: 'Vova Kenih',
+  name: 'Miguel Galperin',
+  domain: 'www.festivalnuevaopera.org',
+  author: 'Miguel Galperin',
 
   // open graph metadata (optional)
-  description: 'Welcome 👋',
-  socialImageTitle: 'Vova Kenih',
-  socialImageSubtitle: 'Welcome 👋',
+  description: 'Bienvenido 👋',
+  socialImageTitle: 'Miguel Galperin',
+  socialImageSubtitle: 'Hola 👋',
 
   // social usernames (optional)
-  twitter: 'vovakenih',
-  github: 'vovakenih',
-  linkedin: 'vovakenih',
+  twitter: 'miguel_galperin',
+  github: '',
+  linkedin: '',
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults

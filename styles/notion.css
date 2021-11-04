@@ -7,6 +7,85 @@
  * places to add some flare.
  */
 
+.notion-collection-header {
+  display: none;
+}
+
+.notion-toggle {
+    
+    color: pink;
+    position: fixed !important;
+    z-index: 9999 !important;
+    border: none !important;
+    font-size: 64px;
+    margin-top: -2px;
+    margin-left: -150px;
+
+  }
+
+.notion-toggle > div {
+    
+    position: relative;
+    left: 100px;
+    line-height: 1.5;
+    font-weight: 700;
+    padding: 15px;
+    margin-left: -10px;
+    margin-top: -20px;
+    background-color: RGB(255,221,238, 0.8);
+    z-index: 999;
+    transition: background-color 2s;
+  }
+
+.notion-toggle > div:hover {
+    
+    background-color: lightpink;
+    
+
+  }
+
+
+.notion-text {
+    
+    padding: 0.5px 0.5px;
+    margin-bottom: 1px;
+    
+  }
+
+
+.notion-text > a {
+    font-size: 18px;
+    margin-bottom: 1px;
+    padding: 15px;
+    background-color: RGB(255,221,238);
+}
+
+.notion-toggle > summary::marker {
+    
+    color: transparent;
+  }
+
+.notion-asset-wrapper {
+    
+margin-top: 0;
+
+  }
+.notion-quote {
+     
+    justify-content: space-between !important;
+    padding: 0 24px 0 0 !important;
+    align-items: center !important;
+    position: fixed !important;
+    z-index: 9999 !important;
+    display: flex !important;
+    border: none !important;
+    height: 45px !important;
+    margin: 0 !important;
+    right: 0 !important;
+    top: 0 !important;
+    max-width: 300px;
+  }
+
 .notion {
   --notion-max-width: 720px;
   --notion-header-height: 54px;
@@ -18,11 +97,7 @@
 }
 
 .index-page {
-  --notion-max-width: 900px;
-}
-
-.notion-text {
-  padding: 0.5em 2px;
+  --notion-max-width: 1200px;
 }
 
 .notion-asset-caption {
@@ -35,14 +110,22 @@
 }
 
 .notion-header .nav-header {
-  max-width: 1100px;
-  margin: 0 auto;
+  display: none;
 }
 
 .notion-gallery-grid {
+  border-top: none;
   grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
-  grid-gap: 6vmin;
-  gap: 6vmin;
+  grid-gap: 0vmin;
+  gap: 0vmin;
+}
+
+.notion-collection-card-property{
+  display: none;
+}
+
+.notion-page-title-text {
+  display: none;
 }
 
 .notion-gallery-grid .notion-page-icon {
@@ -64,12 +147,17 @@
 }
 
 .notion-collection-card {
-  border-radius: 16px;
+  /*border-radius: 16px;*/
   box-shadow: none;
 }
 
+.notion-collection-card-body{
+  
+  padding:0;
+}
+
 .notion-collection-card-cover img {
-  border-radius: 16px;
+  /*border-radius: 16px;*/
 }
 
 .notion-collection-card {
@@ -155,8 +243,8 @@
 }
 
 .notion-title {
-  display: block;
-  text-align: center;
+  display: none;
+  
 }
 
 .notion-collection-column-title {
@@ -203,7 +291,8 @@
 }
 
 .notion-link:hover {
-  border-width: 3px;
+  
+  border-width: 2.5px;
   border-image: linear-gradient(90.68deg, #b439df 0.26%, #e5337e 102.37%);
   border-image-slice: 1;
 }
