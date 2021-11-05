@@ -51,7 +51,11 @@ import styles from './styles.module.css'
 //   }
 // )
 
+<<<<<<< HEAD
 //const Pdf = dynamic(() => import('react-notion-x').then((notion) => notion.Pdf))
+=======
+// const Pdf = dynamic(() => import('react-notion-x').then((notion) => notion.Pdf))
+>>>>>>> 091084e8ab5198230df060d7c0aee7afe09937ef
 
 const Equation = dynamic(() =>
   import('react-notion-x').then((notion) => notion.Equation)
