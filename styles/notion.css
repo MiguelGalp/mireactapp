@@ -18,10 +18,17 @@
     margin-left: 970px;
     margin-top: 490px;
     z-index: 9999 !important;
-    border: none !important;
     font-size: 64px;
 
   }
+
+.notion-block-e6a6d78885a44ddcaf1359d8624cc1a7 > summary > a {
+    
+    border-bottom: none;
+    font-weight: 900;
+
+  }
+
 
 .notion-toggle:first-of-type {
     
