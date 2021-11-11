@@ -39,7 +39,7 @@
     font-size: 64px;
     margin-top: -2px;
     margin-left: -150px;
-
+   
   }
 
 .notion-toggle:first-of-type > div {
@@ -53,13 +53,19 @@
     margin-top: -20px;
     background-color: RGB(255,221,238, 0.8);
     z-index: 999;
+    width: 10px;
+    opacity: 1;
     transition: background-color 2s;
+    transition: opacity 2s;
+    
+    
   }
 
 .notion-toggle:first-of-type > div:hover {
     
     background-color: lightpink;
-    
+    width: 1200px;
+    opacity: 1;
 
   }
 

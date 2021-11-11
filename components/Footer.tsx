@@ -33,11 +33,11 @@ export const Footer: React.FC<{
           <a
             className={styles.toggleDarkMode}
             onClick={toggleDarkModeCb}
-            title='Tottle dark mode'
-          >
+            title='Tottle dark mode'>
             {isDarkMode ? <IoMoonSharp /> : <IoSunnyOutline />}
           </a>
         </div>
+        
       ) : null}
 
       <div className={styles.social}>
@@ -77,6 +77,24 @@ export const Footer: React.FC<{
           </a>
         )}
       </div>
+      <form action="http://localhost:3000/" method="GET">
+      <button className={styles.refresh}>↻</button>
+      </form>
+      <nav role="navigation">
+        <div className={styles.menuToggle}>
+           <input type="checkbox" />
+              <span></span>
+              <span></span>
+              <span></span>
+            <ul className={styles.menu}>
+             <a href="#"><li>Home</li></a>
+             <a href="#"><li>About</li></a>
+             <a href="#"><li>Info</li></a>
+             <a href="#"><li>Contact</li></a>
+             <a href="https://erikterwan.com/" target="_blank"><li>Show me more</li></a>
+            </ul>
+         </div>
+       </nav>
     </footer>
   )
 }
