@@ -44,9 +44,9 @@
 }
 
 .footer {
-  width: 30%;
+  width: 50%;
   max-width: 1300px;
-  margin-left: -20px;
+  
   margin-bottom: 20px;
   padding-bottom: 50px;
   display: flex;
@@ -229,8 +229,8 @@ border-radius: 50%;
   width: 40px;
   height: 32px;
   position: absolute;
-  top: -770px;
-  left: 280px;
+  top: -820px;
+  left: 140px;
   
   cursor: pointer;
   
@@ -250,8 +250,8 @@ border-radius: 50%;
   height: 6px;
   margin-bottom: 7px;
   position: relative;
-  top: -770px;
-  left: 280px;
+  top: -820px;
+  left: 140px;
   background: #cdcdcd;
   border-radius: 3px;
   
@@ -304,9 +304,9 @@ border-radius: 50%;
 
 .menu {
   position: absolute;
-  top: -770px;
-  left: 280px;
-  width: 300px;
+  top: -820px;
+  left: 140px;
+  width: 270px;
   margin: -100px 0 0 -50px;
   padding: 50px;
   padding-top: 155px;

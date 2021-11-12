@@ -19,6 +19,9 @@ body {
   overflow-x: hidden;
 }
 
+body::-webkit-scrollbar {
+  width: 5px;
+}
 .utterances {
   max-width: 100% !important;
 }
@@ -35,3 +38,5 @@ body {
   height: 1.2em !important;
   width: 1.2em !important;
 }
+
+
