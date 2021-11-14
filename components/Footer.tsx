@@ -87,8 +87,8 @@ export const Footer: React.FC<{
               <span></span>
               <span></span>
             <ul className={styles.menu}>
-             <a href="#"><li>Home</li></a>
-             <a href="#"><li>About</li></a>
+             <a href="http://localhost:3000/"><li>Home</li></a>
+             <a href="http://localhost:3000/javascript-modules-worth-using-6464d1ff83c34143a03796372a15a808"><li>About</li></a>
              <a href="#"><li>Info</li></a>
              <a href="#"><li>Contact</li></a>
              <a href="https://erikterwan.com/" target="_blank"><li>Show me more</li></a>
