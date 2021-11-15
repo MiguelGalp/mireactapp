@@ -39,3 +39,6 @@ body::-webkit-scrollbar {
   width: 1.2em !important;
 }
 
+.notion-collection-card:hover {
+  background: none;
+}

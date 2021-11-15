@@ -52,17 +52,17 @@
   width: 0;
   height: 0;
 }
-
+/*
 .action:hover {
   transition: all 100ms ease-out;
 }
-
+*/
 .action:hover .actionBgPane {
   width: 100%;
   height: 100%;
   transition: all 100ms ease-out;
 }
-
+/*
 .action:hover svg {
   transition: fill 100ms ease-out;
   fill: var(--bg-color);
@@ -71,7 +71,7 @@
 :global(.dark-mode) .action:hover svg {
   fill: var(--fg-color);
 }
-
+*/
 .facebook .actionBgPane {
   background: #3b5998;
 }
