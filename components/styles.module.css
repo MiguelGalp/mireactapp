@@ -230,7 +230,7 @@ border-radius: 50%;
   width: 40px;
   height: 32px;
   position: absolute;
-  top: -760px;
+  top: -800px;
   left: 140px;
   
   cursor: pointer;
@@ -251,7 +251,8 @@ border-radius: 50%;
   height: 6px;
   margin-bottom: 7px;
   position: relative;
-  top: -760px;
+  top: -800px;
+  
   left: 140px;
   background: #cdcdcd;
   border-radius: 3px;
@@ -305,7 +306,7 @@ border-radius: 50%;
 
 .menu {
   position: absolute;
-  top: -760px;
+  top: -800px;
   left: 140px;
   width: 270px;
   margin: -100px 0 0 -50px;
@@ -363,6 +364,24 @@ border-radius: 50%;
   }
 }
 
+@media only screen and (min-height: 1366px) {
+     .menuToggle input {
+    top: -1350px;
+    left: 20px;
+  }
+  .menu {
+    top: -1350px;
+    left: 20px;
+    padding: 20px;
+    padding-top: 155px;
+
+  }
+.menuToggle span {
+    top: -1350px;
+    left: 20px;
+  }
+
+}
 @media (max-width: 500px) {
   .githubCorner:hover .octoArm {
     animation: none;
@@ -375,18 +394,48 @@ border-radius: 50%;
 
 @media only screen and (max-width: 1024px) {
   .menuToggle input {
-    top: -890px;
+    top: -150px;
+    left: 0px;
+  }
+  .menu {
+    top: -150px;
+    left: 0px;
+    padding: 20px;
+    padding-top: 155px;
+
+  }
+.menuToggle span {
+    top: -150px;
+    left: 0px;
+  }
+.footer {
+  width: 75%;
+  
+  
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+}
+
+@media only screen and (max-width: 1024px) {
+  .menuToggle input {
+    top: -950px;
     left: 20px;
   }
   .menu {
-    top: -890px;
+    top: -950px;
     left: 20px;
     padding: 20px;
     padding-top: 155px;
 
   }
 .menuToggle span {
-    top: -890px;
+    top: -950px;
     left: 20px;
   }
 .footer {
@@ -403,39 +452,34 @@ border-radius: 50%;
 }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 768px) {
 
   .menuToggle input {
-    top: -600px;
-    left: 0px;
+    top: -900px;
+    left: 10px;
     
   }
   .menu {
-    top: -600px;
+    top: -900px;
     left: 0px;
 
   }
 .menuToggle span {
-    top: -600px;
+    top: -900px;
     left: 0px;
     
   }
 .footer {
-  width: 50%;
+  width: 75%;
   
   margin: unset;
   padding: unset;
   margin-top: -10px;
   margin-left: 90px;
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   justify-content: space-around;
   align-items: center;
 }
-.refresh {
-display: none;
-}
-.copyright {
-  display: none;
-}
+
 }
