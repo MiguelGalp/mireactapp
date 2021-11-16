@@ -142,25 +142,6 @@ border-radius: 50%;
   }
 }
 
-@media only screen and (max-width: 566px) {
-  .footer {
-    flex-direction: column;
-  }
-
-  .footer > div {
-    margin-top: 1em;
-  }
-
-  .footer .settings {
-    order: 1;
-  }
-  .footer .social {
-    order: 2;
-  }
-  .footer .copyright {
-    order: 3;
-  }
-}
 
 .pageActions {
   display: flex;
@@ -198,6 +179,8 @@ border-radius: 50%;
   background: #e5f2e8;
 }
 
+/* PASAR A MOBILE */
+
 .menuToggle {
   display: block;
   position: relative;
@@ -226,11 +209,13 @@ border-radius: 50%;
 
 .menuToggle input
 {
-  display: block;
+  
+  display: none;
+  /* display: block; */
   width: 40px;
   height: 32px;
   position: absolute;
-  top: -800px;
+  top: -850px;
   left: 140px;
   
   cursor: pointer;
@@ -246,15 +231,19 @@ border-radius: 50%;
  */
 .menuToggle span
 {
-  display: block;
+  
+  display: none;
+  
+  /* display: block; */
+  
   width: 45px;
   height: 6px;
   margin-bottom: 7px;
   position: relative;
-  top: -800px;
+  top: -850px;
   
   left: 140px;
-  background: #cdcdcd;
+  background: #999999;
   border-radius: 3px;
   
   z-index: 1;
@@ -306,7 +295,7 @@ border-radius: 50%;
 
 .menu {
   position: absolute;
-  top: -800px;
+  top: -850px;
   left: 140px;
   width: 270px;
   margin: -100px 0 0 -50px;
@@ -364,24 +353,6 @@ border-radius: 50%;
   }
 }
 
-@media only screen and (min-height: 1366px) {
-     .menuToggle input {
-    top: -1350px;
-    left: 20px;
-  }
-  .menu {
-    top: -1350px;
-    left: 20px;
-    padding: 20px;
-    padding-top: 155px;
-
-  }
-.menuToggle span {
-    top: -1350px;
-    left: 20px;
-  }
-
-}
 @media (max-width: 500px) {
   .githubCorner:hover .octoArm {
     animation: none;
@@ -392,71 +363,16 @@ border-radius: 50%;
   }
 }
 
-@media only screen and (max-width: 1024px) {
-  .menuToggle input {
-    top: -150px;
-    left: 0px;
-  }
-  .menu {
-    top: -150px;
-    left: 0px;
-    padding: 20px;
-    padding-top: 155px;
+/* CAMBIAR DISPLAY A BLOCK PARA MOBILE */
 
-  }
-.menuToggle span {
-    top: -150px;
-    left: 0px;
-  }
-.footer {
-  width: 75%;
-  
-  
-  margin-bottom: 10px;
-  padding-bottom: 10px;
-  
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-}
 
-@media only screen and (max-width: 1024px) {
-  .menuToggle input {
-    top: -950px;
-    left: 20px;
-  }
-  .menu {
-    top: -950px;
-    left: 20px;
-    padding: 20px;
-    padding-top: 155px;
-
-  }
-.menuToggle span {
-    top: -950px;
-    left: 20px;
-  }
-.footer {
-  width: 75%;
-  
-  
-  margin-bottom: 10px;
-  padding-bottom: 10px;
-  
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-}
 
 @media only screen and (max-width: 768px) {
 
   .menuToggle input {
+    display: block;
     top: -900px;
-    left: 10px;
+    left: 5px;
     
   }
   .menu {
@@ -465,8 +381,9 @@ border-radius: 50%;
 
   }
 .menuToggle span {
+    display: block;
     top: -900px;
-    left: 0px;
+    left: 5px;
     
   }
 .footer {
@@ -475,7 +392,7 @@ border-radius: 50%;
   margin: unset;
   padding: unset;
   margin-top: -10px;
-  margin-left: 90px;
+  margin-left: 0px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -483,3 +400,85 @@ border-radius: 50%;
 }
 
 }
+@media only screen and (max-width: 566px) {
+
+   .menuToggle input {
+    display: block;
+    top: -640px;
+    left: 90px;
+    
+  }
+  .menu {
+    top: -640px;
+    left: 70px;
+
+  }
+.menuToggle span {
+    display: block;
+    top: -640px;
+    left: 90px;
+   }  
+   
+
+  .footer {
+    flex-direction: column;
+  }
+
+  .footer > div {
+    margin-top: 1em;
+  }
+
+  .footer .settings {
+    order: 1;
+    margin-top: 0em;
+  }
+  .footer .social {
+    order: 2;
+  }
+  .footer .copyright {
+    order: 3;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+
+   .menuToggle input {
+    display: block;
+    top: -620px;
+    left: 70px;
+    
+  }
+  .menu {
+    top: -620px;
+    left: 40px;
+
+  }
+.menuToggle span {
+    display: block;
+    top: -620px;
+    left: 70px;
+   }  
+   
+
+  .footer {
+    flex-direction: column;
+  }
+
+  .footer > div {
+    margin-top: 1em;
+  }
+
+  .footer .settings {
+    order: 1;
+    margin-top: 0em;
+  }
+  .footer .social {
+    order: 2;
+  }
+  .footer .copyright {
+    order: 3;
+  }
+}
+
+
+
