@@ -206,6 +206,99 @@ display: none;
   top: -5%
 }
 
+.notion-collection-card:nth-child(4):before {
+  display: flex;
+  font-size: 2em;
+  font-weight: 500;
+  content: "\ \02750\ contact ";
+  white-space: pre;  
+  line-height: 1em;
+  visibility: hidden;
+  opacity: 0;
+  width: 0%;
+  height: 15%;
+  background-color: transparent;
+  color: #999999;
+  text-align: center;
+  border-radius: 5px;
+  padding: 20px 5px;
+  transition: all 1s ease-in-out;
+  
+  position: absolute;
+  z-index: 1;
+  left: 0%;
+  top: -25%;
+}
+
+.notion-collection-card:nth-child(4):hover:before {
+  opacity: 1;
+  visibility: visible;
+  width: 40%;
+  top: -5%
+}
+
+.notion-collection-card:nth-child(5):before {
+  display: flex;
+  font-size: 2em;
+  font-weight: 500;
+  content: "\ \02750\ atlántico ";
+  white-space: pre;  
+  line-height: 1em;
+  visibility: hidden;
+  opacity: 0;
+  width: 0%;
+  height: 15%;
+  background-color: transparent;
+  color: #999999;
+  text-align: center;
+  border-radius: 5px;
+  padding: 20px 5px;
+  transition: all 1s ease-in-out;
+  
+  position: absolute;
+  z-index: 1;
+  left: 0%;
+  top: -25%;
+}
+
+.notion-collection-card:nth-child(5):hover:before {
+  opacity: 1;
+  visibility: visible;
+  width: 40%;
+  top: -5%
+}
+
+.notion-collection-card:nth-child(6):before {
+  display: flex;
+  font-size: 2em;
+  font-weight: 500;
+  content: "\ \02750\ atlántico ";
+  white-space: pre;  
+  line-height: 1em;
+  visibility: hidden;
+  opacity: 0;
+  width: 0%;
+  height: 15%;
+  background-color: transparent;
+  color: #999999;
+  text-align: center;
+  border-radius: 5px;
+  padding: 20px 5px;
+  transition: all 1s ease-in-out;
+  
+  position: absolute;
+  z-index: 1;
+  left: 0%;
+  top: -25%;
+}
+
+.notion-collection-card:nth-child(6):hover:before {
+  opacity: 1;
+  visibility: visible;
+  width: 40%;
+  top: -5%
+}
+
 
 
 

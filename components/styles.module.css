@@ -411,7 +411,7 @@ border-radius: 50%;
   }
   .menu {
     top: -900px;
-    left: 0px;
+    left: -15px;
 
   }
 .menuToggle span {
@@ -500,6 +500,11 @@ border-radius: 50%;
   .footer {
     flex-direction: column;
   }
+
+  .refresh {
+    font-size: 1.6rem;
+  }
+
 
   .footer > div {
     margin-top: 1em;

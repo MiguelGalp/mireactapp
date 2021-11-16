@@ -77,7 +77,7 @@ export const Footer: React.FC<{
           </a>
         )}
       </div>
-      <form action="http://localhost:3000/" method="GET">
+      <form action="https://mireactapp-miguelgalp.vercel.app/" method="GET">
       <button className={styles.refresh}>↻</button>
       </form>
       <nav role="navigation">
