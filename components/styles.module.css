@@ -46,7 +46,7 @@
 .footer {
   width: 50%;
   max-width: 1300px;
-  
+  padding-top: -20px;
   margin-bottom: 20px;
   padding-bottom: 50px;
   display: flex;
