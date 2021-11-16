@@ -400,6 +400,43 @@ border-radius: 50%;
 }
 
 }
+
+@media only screen and (max-width: 680px) {
+
+  .menuToggle input {
+    display: block;
+    top: -900px;
+    left: 5px;
+    
+  }
+  .menu {
+    top: -900px;
+    left: 0px;
+
+  }
+.menuToggle span {
+    display: block;
+    top: -900px;
+    left: 5px;
+    
+  }
+.footer {
+  width: 75%;
+  
+  margin: unset;
+  padding: unset;
+  margin-top: -10px;
+  margin-left: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+}
+
+
+
 @media only screen and (max-width: 566px) {
 
    .menuToggle input {

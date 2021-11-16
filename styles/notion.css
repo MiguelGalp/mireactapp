@@ -474,9 +474,14 @@ display: none;
 
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 680px) {
   
-
+.notion-gallery-grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 5vmin;
+    gap: 5vmin;
+    padding-top: 2vh;
+  }
 
 .notion-search-button {
     display: none !important;
