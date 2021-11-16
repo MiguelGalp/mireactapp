@@ -18,9 +18,12 @@
 }
 
 .notion-collection-card:nth-child(odd):before {
-  font-size: 5em;
-  font-weight: 900;
-  content: "Design Your Site With Us";
+  display: block;
+  font-size: 3em;
+  font-weight: 400;
+  content: "\a\02750\ \a\aJane Doe\a\a"url(https://drive.google.com/uc?export=download&id=1l5N9_sppV_Rcr8ffWo-5YT9KrDAxbaSI);
+  white-space: pre;  
+  line-height: 1em;
   visibility: hidden;
   opacity: 0;
   width: 40%;
@@ -34,20 +37,25 @@
   
   position: absolute;
   z-index: 1;
-  left: 8%;
-  top: 10%;
+  left: 5%;
+  top: 15%;
 }
 
 .notion-collection-card:nth-child(odd):hover:before {
-  opacity: 0.8;
+  opacity: 0.9;
   visibility: visible;
 }
 
 
+
+
 .notion-collection-card:nth-child(even):before {
-  font-size: 5em;
-  font-weight: 900;
-  content: "Diseña tu web con nosotros";
+  display: block;
+  font-size: 3em;
+  font-weight: 400;
+  content: "\a\02774\ \02775\a\aMiguel Galperin\a\a"url(https://drive.google.com/uc?export=download&id=1l5N9_sppV_Rcr8ffWo-5YT9KrDAxbaSI);
+  white-space: pre;  
+  line-height: 1em;
   visibility: hidden;
   opacity: 0;
   width: 40%;
@@ -61,12 +69,12 @@
   
   position: absolute;
   z-index: 1;
-  left: 52%;
-  top: 10%;
+  left: 55%;
+  top: 15%;
 }
 
 .notion-collection-card:nth-child(even):hover:before {
-  opacity: 0.8;
+  opacity: 0.9;
   visibility: visible;
 }
 
