@@ -135,14 +135,14 @@ display: none;
   position: absolute;
   z-index: 1;
   left: 0%;
-  top: -35%;
+  top: -25%;
 }
 
 .notion-collection-card:nth-child(1):hover:before {
   opacity: 1;
   visibility: visible;
   width: 40%;
-  top: -5%
+  top: -22%
 }
 
 .notion-collection-card:nth-child(2):before {
@@ -166,14 +166,14 @@ display: none;
   position: absolute;
   z-index: 1;
   left: 0%;
-  top: -35%;
+  top: -25%;
 }
 
 .notion-collection-card:nth-child(2):hover:before {
   opacity: 1;
   visibility: visible;
   width: 40%;
-  top: -5%
+  top: -22%
 }
 
 .notion-collection-card:nth-child(3):before {
@@ -197,14 +197,14 @@ display: none;
   position: absolute;
   z-index: 1;
   left: 0%;
-  top: -35%;
+  top: -25%;
 }
 
 .notion-collection-card:nth-child(3):hover:before {
   opacity: 1;
   visibility: visible;
   width: 40%;
-  top: -5%
+  top: -22%
 }
 
 .notion-collection-card:nth-child(4):before {
@@ -228,14 +228,14 @@ display: none;
   position: absolute;
   z-index: 1;
   left: 0%;
-  top: -35%;
+  top: -25%;
 }
 
 .notion-collection-card:nth-child(4):hover:before {
   opacity: 1;
   visibility: visible;
   width: 40%;
-  top: -5%
+  top: -22%
 }
 
 
