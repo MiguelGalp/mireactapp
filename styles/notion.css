@@ -81,7 +81,7 @@ margin-top: 0;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   grid-gap: 0vmin;
   gap: 3vmin;
-  padding-top: 100px;
+  padding-top: 150px;
   margin-top: 10px;
   white-space: nowrap;
 }
