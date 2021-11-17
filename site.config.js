@@ -9,7 +9,7 @@ module.exports = {
   // basic site info (required)
   name: 'Miguel Galperin',
   domain: 'www.festivalnuevaopera.org',
-  author: 'Miguel Galperin',
+  author: 'Atlanticx',
 
   // open graph metadata (optional)
   description: 'Bienvenido 👋',
