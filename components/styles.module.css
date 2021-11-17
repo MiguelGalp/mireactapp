@@ -407,19 +407,137 @@ border-radius: 50%;
 
   .menuToggle input {
     display: block;
-    top: -940px;
+    top: -640px;
     left: -45px;
     
   }
   .menu {
-    top: -940px;
-    left: -65px;
+    top: -640px;
+    left: -85px;
 
   }
 .menuToggle span {
     display: block;
-    top: -940px;
+    top: -640px;
     left: -45px;
+    
+  }
+.footer {
+  width: 75%;
+  margin-top: -20px;
+  margin-left: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  overflow:visible;
+}
+
+.copyright {
+    display: none;
+
+  }
+
+
+}
+
+@media only screen and (max-width: 375px) {
+
+  .menuToggle input {
+    display: block;
+    top: -600px;
+    left: -45px;
+    
+  }
+  .menu {
+    top: -600px;
+    left: -85px;
+
+  }
+.menuToggle span {
+    display: block;
+    top: -600px;
+    left: -45px;
+    
+  }
+.footer {
+  width: 75%;
+  
+  margin: unset;
+  padding: unset;
+  margin-top: 10px;
+  margin-left: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.copyright {
+    display: none;
+
+  }
+
+
+}
+@media only screen and (max-height: 414px) {
+
+  .menuToggle input {
+    display: block;
+    top: -335px;
+    left: 10px;
+    
+  }
+  .menu {
+    top: -335px;
+    left: -45px;
+
+  }
+.menuToggle span {
+    display: block;
+    top: -335px;
+    left: 10px;
+    
+  }
+.footer {
+  width: 75%;
+  
+  margin: unset;
+  padding: unset;
+  margin-top: -20px;
+  margin-left: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.copyright {
+    display: none;
+
+  }
+
+
+}
+
+
+@media only screen and (max-height: 375px) {
+
+  .menuToggle input {
+    display: block;
+    top: -335px;
+    left: -15px;
+    
+  }
+  .menu {
+    top: -335px;
+    left: -45px;
+
+  }
+.menuToggle span {
+    display: block;
+    top: -335px;
+    left: -15px;
     
   }
 .footer {
@@ -443,24 +561,106 @@ border-radius: 50%;
 
 }
 
+@media only screen and (max-width: 320px) {
+
+  .menuToggle input {
+    display: block;
+    top: -500px;
+    left: -55px;
+    
+  }
+  .menu {
+    top: -500px;
+    left: -95px;
+
+  }
+.menuToggle span {
+    display: block;
+    top: -500px;
+    left: -55px;
+    
+  }
+.footer {
+  width: 75%;
+  
+  margin: unset;
+  padding: unset;
+  margin-top: -10px;
+  margin-left: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.copyright {
+    display: none;
+
+  }
+
+
+}
+
+@media only screen and (max-height: 320px) {
+
+  .menuToggle input {
+    display: block;
+    top: -330px;
+    left: -35px;
+    
+  }
+  .menu {
+    top: -330px;
+    left: -95px;
+
+  }
+.menuToggle span {
+    display: block;
+    top: -330px;
+    left: -35px;
+    
+  }
+.footer {
+  width: 75%;
+  
+  margin: unset;
+  padding: unset;
+  margin-top: -10px;
+  margin-left: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.copyright {
+    display: none;
+
+  }
+
+
+}
+
+
+
 /*
 
-@media only screen and (max-width: 566px) {
+@media only screen and (max-width: 320px) {
 
    .menuToggle input {
     display: block;
-    top: -640px;
+    top: -900px;
     left: 90px;
     
   }
   .menu {
-    top: -640px;
+    top: -900px;
     left: 70px;
 
   }
 .menuToggle span {
     display: block;
-    top: -640px;
+    top: -900px;
     left: 90px;
    }  
    

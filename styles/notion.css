@@ -476,7 +476,13 @@ display: none;
 }
 
 
+.notion-frame {
+  overflow: visible;
+}
 
+.notion-page-scroller {
+  overflow: visible;
+}
 
 
 @media only screen and (max-width: 768px) {
@@ -498,7 +504,7 @@ display: none;
 
 @media only screen and (max-width: 414px) {
   .notion-gallery-grid {
-    display: block;
+    display: flex;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     grid-gap: 3vmin;
     gap: 2vmin;
@@ -514,14 +520,91 @@ display: none;
   .notion-collection-card-cover {
    border-bottom: 0 none;
    box-shadow: 2px 2px 8px 4px rgba(15, 15, 15, 0.1);
-   padding: 48px;
+   padding: 0px;
+ 
+}
+}
+
+
+
+@media only screen and (max-width: 375px) {
+  .notion-gallery-grid {
+    display: flex;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 3vmin;
+    gap: 2vmin;
+    padding-top: unset;
+    margin-top: unset;
+  }
+  .notion-page {
+    padding-left: calc(max(5vh, 32px)) !important;
+    padding-right: calc(max(5vh, 32px)) !important;
+    padding-top: calc(max(6vh, 32px)) !important;
+    
+  }
+  .notion-collection-card-cover {
+   border-bottom: 0 none;
+   box-shadow: 2px 2px 8px 4px rgba(15, 15, 15, 0.1);
+   padding: 0px;
+ 
+}
+}
+
+
+
+
+
+
+
+@media only screen and (max-height: 414px) {
+  .notion-gallery-grid {
+    display: flex;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 3vmin;
+    gap: 2vmin;
+    padding-top: unset;
+    margin-top: unset;
+  }
+  .notion-page {
+    padding-left: calc(max(5vh, 32px)) !important;
+    padding-right: calc(max(5vh, 32px)) !important;
+    padding-top: calc(max(6vh, 32px)) !important;
+    
+  }
+  .notion-collection-card-cover {
+   border-bottom: 0 none;
+   box-shadow: 2px 2px 8px 4px rgba(15, 15, 15, 0.1);
+   padding: 0px;
+ 
+}
+}
+
+@media only screen and (max-height: 320px) {
+  .notion-gallery-grid {
+    display: flex;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 3vmin;
+    gap: 2vmin;
+    padding-top: unset;
+    margin-top: unset;
+  }
+  .notion-page {
+    padding-left: calc(max(5vh, 32px)) !important;
+    padding-right: calc(max(5vh, 32px)) !important;
+    padding-top: calc(max(6vh, 32px)) !important;
+    
+  }
+  .notion-collection-card-cover {
+   border-bottom: 0 none;
+   box-shadow: 2px 2px 8px 4px rgba(15, 15, 15, 0.1);
+   padding: 0px;
  
 }
 }
 
 /*
 
-@media only screen and (max-width: 648px) {
+@media only screen and (max-width: 375px) {
   .notion-gallery-grid {
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     grid-gap: 3vmin;
