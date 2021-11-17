@@ -7,6 +7,11 @@
  * places to add some flare.
  */
 
+.notion-hash-link {
+  pointer-events: none;
+  display: none;
+}
+
 
 .notion-aside > div {
   display: none;
