@@ -533,8 +533,8 @@ display: none;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     grid-gap: 3vmin;
     gap: 2vmin;
-    padding-top: unset;
-    margin-top: unset;
+    padding-bottom: unset;
+    padding-top: 1vh;
   }
   .notion-page {
     padding-left: calc(max(5vh, 32px)) !important;
