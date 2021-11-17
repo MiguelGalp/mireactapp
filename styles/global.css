@@ -17,6 +17,7 @@ html {
 
 body {
   overflow-x: visible;
+  overflow-y: visible;
 }
 
 body::-webkit-scrollbar {
@@ -42,3 +43,4 @@ body::-webkit-scrollbar {
 .notion-collection-card:hover {
   background: none;
 }
+
