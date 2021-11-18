@@ -9,21 +9,24 @@
 
 /* SUB PAGINA T */
 
-.notion-block-1790b0b7867c4e2cb15df66dba30e9dd .notion-block-822a548f9777427d8ce3682a6e4edfda .notion-asset-object-fit > sc-iBPRYJ  {
-  background: pink;
-}
-
-.notion-block-1790b0b7867c4e2cb15df66dba30e9dd .styles_toggleDarkMode__1icXg {
-  pointer-events: none;
-  display: none;
-}
-
-.notion-block-1790b0b7867c4e2cb15df66dba30e9dd .styles_social__235gY {
-  margin-left: -130px;
-}
 
 .notion-block-1790b0b7867c4e2cb15df66dba30e9dd .styles_menuToggle__TyYI8 {
   display: none;
+}
+
+.notion-asset-wrapper iframe {
+}
+
+.tally-text {
+font-size: 1.4rem;
+}
+
+/* iframe */
+
+.notion-block-1790b0b7867c4e2cb15df66dba30e9dd .notion-asset-object-fit {
+background: var(--bg-color);
+border-radius: 2%;
+padding: 20px;
 }
 
 
