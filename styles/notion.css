@@ -529,38 +529,28 @@ display: none;
 }
 
 
-@media only screen and (max-width: 768px) {
-  .notion-gallery-grid {
-    display: block;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    grid-gap: 3vmin;
-    gap: 2vmin;
-    padding-top: unset;
-    margin-top: unset;
-  }
-  .notion-page {
-    padding-left: calc(max(10vh, 32px)) !important;
-    padding-right: calc(max(10vh, 32px)) !important;
-    padding-top: calc(max(6vh, 32px)) !important;
-    
-}
-}
+/* IPHONE 8 PLUS */
 
 @media only screen and (max-width: 414px) {
-  .notion-gallery-grid {
-    display: flex;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    grid-gap: 3vmin;
-    gap: 2vmin;
-    padding-top: unset;
-    margin-top: unset;
-  }
-  .notion-page {
-    padding-left: calc(max(5vh, 32px)) !important;
-    padding-right: calc(max(5vh, 32px)) !important;
-    padding-top: calc(max(6vh, 32px)) !important;
+  
+
+ .notion-gallery-view {
+    display: block;
+    position: relative;
     
   }
+
+.notion-gallery-grid-size-medium {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -42%);
+    padding-top: 20px;
+    padding-bottom: 50px;
+    
+  }
+
   .notion-collection-card-cover {
    border-bottom: 0 none;
    box-shadow: 2px 2px 8px 4px rgba(15, 15, 15, 0.1);
@@ -568,83 +558,41 @@ display: none;
  
 }
 }
-
-
-
-@media only screen and (max-width: 375px) {
-  .notion-gallery-grid {
-    display: flex;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    grid-gap: 3vmin;
-    gap: 2vmin;
-    padding-bottom: unset;
-    padding-top: 1vh;
-  }
-  .notion-page {
-    padding-left: calc(max(5vh, 32px)) !important;
-    padding-right: calc(max(5vh, 32px)) !important;
-    padding-top: calc(max(6vh, 32px)) !important;
-    
-  }
-  .notion-collection-card-cover {
-   border-bottom: 0 none;
-   box-shadow: 2px 2px 8px 4px rgba(15, 15, 15, 0.1);
-   padding: 0px;
- 
-}
-}
-
-
-
-
 
 
 
 @media only screen and (max-height: 414px) {
-  .notion-gallery-grid {
-    display: flex;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    grid-gap: 3vmin;
-    gap: 2vmin;
-    padding-top: unset;
-    margin-top: unset;
-  }
-  .notion-page {
-    padding-left: calc(max(5vh, 32px)) !important;
-    padding-right: calc(max(5vh, 32px)) !important;
-    padding-top: calc(max(6vh, 32px)) !important;
+ .notion-gallery-view {
+    display: block;
+    position: relative;
     
   }
+
+.notion-gallery-grid-size-medium {
+     display: block;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-40%, -50%);
+    
+    
+  }
+
   .notion-collection-card-cover {
+   
    border-bottom: 0 none;
    box-shadow: 2px 2px 8px 4px rgba(15, 15, 15, 0.1);
    padding: 0px;
+   max-height: 150px;
  
 }
 }
 
-@media only screen and (max-height: 320px) {
-  .notion-gallery-grid {
-    display: flex;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    grid-gap: 3vmin;
-    gap: 2vmin;
-    padding-top: unset;
-    margin-top: unset;
-  }
-  .notion-page {
-    padding-left: calc(max(5vh, 32px)) !important;
-    padding-right: calc(max(5vh, 32px)) !important;
-    padding-top: calc(max(6vh, 32px)) !important;
-    
-  }
-  .notion-collection-card-cover {
-   border-bottom: 0 none;
-   box-shadow: 2px 2px 8px 4px rgba(15, 15, 15, 0.1);
-   padding: 0px;
- 
-}
-}
+
+
+
+
+
 
 /*
 
