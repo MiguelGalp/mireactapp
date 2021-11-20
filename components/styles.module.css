@@ -237,7 +237,7 @@ cursor: pointer;
  
   width: 40px;
   height: 32px;
-   position: fixed;
+  position: fixed;
   top: 5%;
   left: 83%;
   
@@ -399,6 +399,14 @@ cursor: pointer;
 
   left: -40px;
 }
+
+.menuToggle input {
+
+left: 60%;
+
+}
+
+
 }
 
 
@@ -411,5 +419,12 @@ cursor: pointer;
 
   left: -40px;
 }
+
+.menuToggle input {
+
+left: 60%;
+
+}
+
 }
 
