@@ -122,7 +122,7 @@ padding: 20px;
   
   display: flex;
   border-top: none;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
   grid-gap: 0vmin;
   gap: 3vmin;
   margin-top: 50px;
@@ -529,99 +529,38 @@ display: none;
 }
 
 
-/* IPHONE 8 PLUS */
+/* IPHONE iPad and SMALLER */
 
-/*
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 768px) {
   
 
- .notion-gallery-view {
-    display: block;
-    position: relative;
+ .notion-gallery-grid-size-medium {
+    display: grid;
+    border-top: none;
+    grid-gap: 10;
+    grid-template-columns: repeat(auto-fill, 186);
+    /* grid-template-columns: repeat(auto-fill,minmax(100 ,1fr)); */
     
-  }
+    gap: 3px;
+    margin-top: 50
+
+}
+}
+
+@media only screen and (max-width: 419px)   {
 
 .notion-gallery-grid-size-medium {
-    display: block;
-    position: absolute;
-    top: 50%;
-    left: 30%;
-    transform: translate(-50%, -42%);
-    padding-top: 20px;
-    padding-bottom: 50px;
-    
-  }
+grid-template-columns: repeat(auto-fill, 186);
 
-  .notion-collection-card-cover {
-   border-bottom: 0 none;
-   box-shadow: 2px 2px 8px 4px rgba(15, 15, 15, 0.1);
-   padding: 0px;
- 
 }
 }
 
 
 
-@media only screen and (max-height: 414px) {
- .notion-gallery-view {
-    display: block;
-    position: relative;
-    
-  }
-
-.notion-gallery-grid-size-medium {
-     display: block;
-    position: absolute;
-    top: 50%;
-    left: 20%;
-    transform: translate(-40%, -50%);
-    
-    
-  }
-
-  .notion-collection-card-cover {
-   
-   border-bottom: 0 none;
-   box-shadow: 2px 2px 8px 4px rgba(15, 15, 15, 0.1);
-   padding: 0px;
-   max-height: 150px;
- 
-}
-}
 
 
 
-*/
 
 
 
-/*
-
-@media only screen and (max-width: 375px) {
-  .notion-gallery-grid {
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    grid-gap: 3vmin;
-    gap: 2vmin;
-    padding-top: 2vh;
-  }
-}
-
-@media only screen and (max-width: 448px) {
-  .notion-gallery-grid {
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    grid-gap: 3vmin;
-    gap: 2vmin;
-    padding-top: 2vh;
-  }
-}
-
-@media only screen and (max-width: 348px) {
-  .notion-gallery-grid {
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-    grid-gap: 3vmin;
-    gap: 2vmin;
-    padding-top: 2vh;
-  }
-}
-*/

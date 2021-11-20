@@ -139,8 +139,7 @@
 cursor: pointer;
 }
 
-@keyframes refresh {
- }
+
 
 .refresh {
   margin: 10px 55px;
@@ -388,124 +387,8 @@ cursor: pointer;
   }
 }
 
-/* CAMBIAR DISPLAY A BLOCK PARA MOBILE */
-
-
-
-@media only screen and (max-width: 768px) {
-
-
-
-}
-
-@media only screen and (max-height: 769px) {
-
-}
 
 
 
 
-@media only screen and (max-width: 414px) {
-
-
-}
-
-
-@media only screen and (max-height: 414px) {
-
-
-
-}
-
-
-
-
-/*
-
-@media only screen and (max-width: 320px) {
-
-   .menuToggle input {
-    display: block;
-    top: -900px;
-    left: 90px;
-    
-  }
-  .menu {
-    top: -900px;
-    left: 70px;
-
-  }
-.menuToggle span {
-    display: block;
-    top: -900px;
-    left: 90px;
-   }  
-   
-
-  .footer {
-    flex-direction: column;
-  }
-
-  .footer > div {
-    margin-top: 1em;
-  }
-
-  .footer .settings {
-    order: 1;
-    margin-top: 0em;
-  }
-  .footer .social {
-    order: 2;
-  }
-  .footer .copyright {
-    order: 3;
-  }
-}
-
-@media only screen and (max-width: 320px) {
-
-   .menuToggle input {
-    display: block;
-    top: -620px;
-    left: 70px;
-    
-  }
-  .menu {
-    top: -620px;
-    left: 40px;
-
-  }
-.menuToggle span {
-    display: block;
-    top: -620px;
-    left: 70px;
-   }  
-   
-
-  .footer {
-    flex-direction: column;
-  }
-
-  .refresh {
-    font-size: 1.6rem;
-  }
-
-
-  .footer > div {
-    margin-top: 1em;
-  }
-
-  .footer .settings {
-    order: 1;
-    margin-top: 0em;
-  }
-  .footer .social {
-    order: 2;
-  }
-  .footer .copyright {
-    order: 3;
-  }
-}
-
-*/
 
