@@ -387,8 +387,29 @@ cursor: pointer;
   }
 }
 
+/* Proporcionar el Burguer */
+/* Ver que la transform afecta la posición del menu */
+
+@media only screen and (max-width: 419px)  {
+  .menuToggle {
+    transform: scale(0.8);
+  }
+
+.menu {
+
+  left: -40px;
+}
+}
 
 
+@media only screen and (max-height: 419px)  {
+  .menuToggle {
+    transform: scale(0.8);
+  }
 
+.menu {
 
+  left: -40px;
+}
+}
 
