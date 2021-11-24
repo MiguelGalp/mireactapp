@@ -7,6 +7,33 @@
  * places to add some flare.
  */
 
+
+/* ANIMACION */
+
+.notion-block-14dfcbb71efe4fdaa43e97b6a9f44899 {
+  width: 36ch;
+  -webkit-animation-delay: 10s;
+  animation: typing 4s steps(36), blink .4s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  0% {
+    border-color: transparent
+  }
+}
+
+
 /* SUB PAGINA T */
 
 
@@ -151,25 +178,26 @@ padding: 20px;
   font-size: 14px;
 }
 
-/* -------------------------- */
-
 .notion-page-title-text {
 
 display: none;
 
 }
 
+/* -------------------------- */
+
 .notion-collection-card:nth-child(1):before {
   display: flex;
-  font-size: 2em;
-  font-weight: 500;
+  font-size: 1.3em;
+  font-family: monospace;
+  font-weight: 300;
   content: "\ \02750\ atlanticx ";
   white-space: pre;  
   line-height: 1em;
   visibility: hidden;
   opacity: 0;
   width: 0%;
-  height: 15%;
+  height: 45%;
   
   color: var(--fg-color);
   text-align: center;
@@ -180,11 +208,11 @@ display: none;
   position: absolute;
   z-index: 1;
   left: 0%;
-  top: -25%;
+  top: 0%;
 }
 
 .notion-collection-card:nth-child(1):hover:before {
-  opacity: 1;
+  opacity: 0.9;
   visibility: visible;
   width: 40%;
   top: -22%
