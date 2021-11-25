@@ -10,9 +10,10 @@
 
 /* ANIMACION */
 
+/*
 .notion-block-14dfcbb71efe4fdaa43e97b6a9f44899 {
   width: 36ch;
-  -webkit-animation-delay: 10s;
+  
   animation: typing 4s steps(36), blink .4s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
@@ -32,6 +33,46 @@
     border-color: transparent
   }
 }
+*/
+/*
+.notion-block-14dfcbb71efe4fdaa43e97b6a9f44899 {
+  
+  
+  animation: 5s fadeIn;
+  animation-fill-mode: forwards;
+  
+  visibility: hidden;
+  font-family: monospace;
+  font-size: 2em;
+}
+
+@keyframes fadeIn {
+  99% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+*/
+
+.notion-block-14dfcbb71efe4fdaa43e97b6a9f44899 {
+  
+      
+    opacity: 0;
+    animation: fadeIn 3s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+  font-family: monospace;
+  font-size: 2em;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+
 
 
 /* SUB PAGINA T */
