@@ -209,7 +209,7 @@ cursor: pointer;
   display: block;
   position: fixed;
   top: 5%;
-  left: 83%;
+  left: 13%;
   
   z-index: 1;
   
@@ -239,7 +239,7 @@ cursor: pointer;
   height: 32px;
   position: fixed;
   top: 5%;
-  left: 83%;
+  left: 13%;
   
   cursor: pointer;
   
@@ -256,11 +256,11 @@ cursor: pointer;
 {
   
  
-  
+  transform: scale(1, 0.4);
   display: block;
   
-  width: 45px;
-  height: 6px;
+  width: 39px;
+  height: 3px;
   margin-bottom: 7px;
   position: relative;
   top: 0px;
@@ -319,7 +319,7 @@ cursor: pointer;
 .menu {
    position: fixed;
   top: 5%;
-  left: 70%;
+  left: 10%;
   
   width: 270px;
   margin: -100px 0 0 -50px;
