@@ -12,7 +12,7 @@
 
 
 .notion-equation-inline {
-  width: 16ch;
+  width: 36ch;
   
   animation: typing 3s steps(37), blink .3s step-end infinite alternate;
   white-space: nowrap;
