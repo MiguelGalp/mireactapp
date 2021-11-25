@@ -14,10 +14,10 @@
 .notion-equation-inline {
   width: 16ch;
   
-  animation: typing 4s steps(36), blink .4s step-end infinite alternate;
+  animation: typing 3s steps(37), blink .3s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
-  border-right: 3px solid;
+  
   font-family: monospace;
   font-size: 2em;
 }
@@ -225,24 +225,60 @@ display: none;
 
 }
 
-/* -------------------------- */
+/* OVERLAY -------------------------- */
 
-/*
 
-.notion-collection-card:nth-child(1):after {
-  display: flex;
-  font-size: 1.3em;
-  font-family: monospace;
+
+.notion-collection-card:nth-child(1):before {
+  
+ display: flex;
+  font-size: 1.2em;
   font-weight: 300;
+  font-family: monospace;
+  background: black; 
   content: "\ \02750\ atlanticx ";
   white-space: pre;  
   line-height: 1em;
-  
-  opacity: 0.5;
+  visibility: hidden;
+  opacity: 0;
   width: 0%;
-  height: 45%;
+  height: 20%;
+  margin-top: 5px;
+  color: var(--bg-color);
+  text-align: center;
+  border-radius: 5px;
+  padding-top: 20px; 
+  padding-bottom: -2px;
+  transition: all 1s ease-in-out;
   
-  color: var(--fg-color);
+  position: absolute;
+  z-index: 1;
+  left: 0%;
+  top: -25%;
+}
+
+.notion-collection-card:nth-child(1):hover:before {
+   opacity: 1;
+  visibility: visible;
+  width: 40%;
+  top: 72%
+
+}
+
+.notion-collection-card:nth-child(2):before {
+  display: flex;
+  font-size: 1.2em;
+  font-weight: 300;
+  font-family: monospace;
+  background: black; 
+  content: "\ \02750\ web design ";
+  white-space: pre;  
+  line-height: 1em;
+  visibility: hidden;
+  opacity: 0;
+  width: 0%;
+  height: 10%;
+  color: var(--bg-color);
   text-align: center;
   border-radius: 5px;
   padding: 20px 5px;
@@ -254,104 +290,84 @@ display: none;
   top: 0%;
 }
 
-.notion-collection-card:nth-child(1):hover:after {
-  opacity: 0.9;
- 
-  width: 40%;
-  top: -22%
-}
-
-.notion-collection-card:nth-child(2):before {
-  display: flex;
-  font-size: 2em;
-  font-weight: 500;
-  content: "\ \02750\ web design ";
-  white-space: pre;  
-  line-height: 1em;
-  visibility: hidden;
-  opacity: 0;
-  width: 0%;
-  height: 15%;
-  color: var(--fg-color);
-  text-align: center;
-  border-radius: 5px;
-  padding: 20px 5px;
-  transition: all 1s ease-in-out;
-  
-  position: absolute;
-  z-index: 1;
-  left: 0%;
-  top: -25%;
-}
-
 .notion-collection-card:nth-child(2):hover:before {
   opacity: 1;
   visibility: visible;
   width: 40%;
-  top: -22%
+  top: 72%;
+  left: 10%;
 }
 
 .notion-collection-card:nth-child(3):before {
-  display: flex;
-  font-size: 2em;
-  font-weight: 500;
-  content: "\ \02750\ our team ";
+ display: flex;
+  font-size: 1.2em;
+  font-weight: 300;
+  font-family: monospace;
+  background: black; 
+  content: "\ \02750\ team/equipo ";
   white-space: pre;  
   line-height: 1em;
   visibility: hidden;
   opacity: 0;
   width: 0%;
-  height: 15%;
-  color: var(--fg-color);
+  height: 20%;
+  color: var(--bg-color);
   text-align: center;
   border-radius: 5px;
-  padding: 20px 5px;
+  padding-top: 20px; 
+  padding-bottom: -2px;
   transition: all 1s ease-in-out;
   
   position: absolute;
   z-index: 1;
   left: 0%;
-  top: -25%;
+  top: 0%;
 }
 
 .notion-collection-card:nth-child(3):hover:before {
-  opacity: 1;
+    opacity: 1;
   visibility: visible;
   width: 40%;
-  top: -22%
+  top: 72%;
+  left: 30%;
 }
 
 .notion-collection-card:nth-child(4):before {
   display: flex;
-  font-size: 2em;
-  font-weight: 500;
-  content: "\ \02750\ contact ";
+  font-size: 1.2em;
+  font-weight: 300;
+  font-family: monospace;
+  background: black; 
+  content: "\ \02750\ contacto/preguntas ";
   white-space: pre;  
   line-height: 1em;
   visibility: hidden;
   opacity: 0;
   width: 0%;
-  height: 15%;
-  color: var(--fg-color);
+  height: 20%;
+  color: var(--bg-color);
   text-align: center;
   border-radius: 5px;
-  padding: 20px 5px;
+  padding-top: 20px; 
+  padding-bottom: -2px;
   transition: all 1s ease-in-out;
   
   position: absolute;
   z-index: 1;
   left: 0%;
-  top: -25%;
+  top: 0%;
+
 }
 
 .notion-collection-card:nth-child(4):hover:before {
-  opacity: 1;
+      opacity: 1;
   visibility: visible;
   width: 40%;
-  top: -22%
+  top: 72%;
+  left: 40%;
 }
 
-*/
+
 
 
 
