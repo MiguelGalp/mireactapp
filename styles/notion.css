@@ -10,9 +10,9 @@
 
 /* ANIMACION */
 
-/*
-.notion-block-14dfcbb71efe4fdaa43e97b6a9f44899 {
-  width: 36ch;
+
+.notion-equation-inline {
+  width: 16ch;
   
   animation: typing 4s steps(36), blink .4s step-end infinite alternate;
   white-space: nowrap;
@@ -33,7 +33,7 @@
     border-color: transparent
   }
 }
-*/
+
 /*
 .notion-block-14dfcbb71efe4fdaa43e97b6a9f44899 {
   
@@ -55,7 +55,7 @@
   }
 }
 */
-
+/*
 .notion-block-14dfcbb71efe4fdaa43e97b6a9f44899 {
   
       
@@ -72,7 +72,7 @@
     to { opacity: 1; }
 }
 
-
+*/
 
 
 /* SUB PAGINA T */
@@ -227,7 +227,9 @@ display: none;
 
 /* -------------------------- */
 
-.notion-collection-card:nth-child(1):before {
+/*
+
+.notion-collection-card:nth-child(1):after {
   display: flex;
   font-size: 1.3em;
   font-family: monospace;
@@ -235,8 +237,8 @@ display: none;
   content: "\ \02750\ atlanticx ";
   white-space: pre;  
   line-height: 1em;
-  visibility: hidden;
-  opacity: 0;
+  
+  opacity: 0.5;
   width: 0%;
   height: 45%;
   
@@ -252,9 +254,9 @@ display: none;
   top: 0%;
 }
 
-.notion-collection-card:nth-child(1):hover:before {
+.notion-collection-card:nth-child(1):hover:after {
   opacity: 0.9;
-  visibility: visible;
+ 
   width: 40%;
   top: -22%
 }
@@ -349,7 +351,7 @@ display: none;
   top: -22%
 }
 
-
+*/
 
 
 
