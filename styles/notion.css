@@ -244,12 +244,13 @@ display: none;
   width: 0%;
   height: 20%;
   margin-top: 5px;
-  color: var(--bg-color);
+  color: white;
+
   text-align: center;
   border-radius: 5px;
   padding-top: 20px; 
   padding-bottom: -2px;
-  transition: all 1s ease-in-out;
+  transition: all 3s;
   
   position: absolute;
   z-index: 1;
@@ -278,11 +279,11 @@ display: none;
   opacity: 0;
   width: 0%;
   height: 10%;
-  color: var(--bg-color);
+  color: white;
   text-align: center;
   border-radius: 5px;
   padding: 20px 5px;
-  transition: all 1s ease-in-out;
+  transition: all 3s;
   
   position: absolute;
   z-index: 1;
@@ -311,12 +312,13 @@ display: none;
   opacity: 0;
   width: 0%;
   height: 20%;
-  color: var(--bg-color);
+  color: white;
+
   text-align: center;
   border-radius: 5px;
   padding-top: 20px; 
   padding-bottom: -2px;
-  transition: all 1s ease-in-out;
+  transition: all 3s;
   
   position: absolute;
   z-index: 1;
@@ -345,12 +347,13 @@ display: none;
   opacity: 0;
   width: 0%;
   height: 20%;
-  color: var(--bg-color);
+  color: white;
+
   text-align: center;
   border-radius: 5px;
   padding-top: 20px; 
   padding-bottom: -2px;
-  transition: all 1s ease-in-out;
+  transition: all 3s;
   
   position: absolute;
   z-index: 1;
