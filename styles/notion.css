@@ -250,7 +250,8 @@ display: none;
   border-radius: 5px;
   padding-top: 20px; 
   padding-bottom: -2px;
-  transition: all 3s;
+   -webkit-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
   
   position: absolute;
   z-index: 1;
@@ -283,7 +284,8 @@ display: none;
   text-align: center;
   border-radius: 5px;
   padding: 20px 5px;
-  transition: all 3s;
+   -webkit-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
   
   position: absolute;
   z-index: 1;
@@ -318,7 +320,8 @@ display: none;
   border-radius: 5px;
   padding-top: 20px; 
   padding-bottom: -2px;
-  transition: all 3s;
+   -webkit-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
   
   position: absolute;
   z-index: 1;
@@ -353,7 +356,8 @@ display: none;
   border-radius: 5px;
   padding-top: 20px; 
   padding-bottom: -2px;
-  transition: all 3s;
+    -webkit-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
   
   position: absolute;
   z-index: 1;
