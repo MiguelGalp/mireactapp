@@ -258,7 +258,7 @@ cursor: pointer;
  
   transform: scale(.8, .6);
   display: block;
-  
+  opacity: 0.7;
   width: 39px;
   height: 3px;
   margin-bottom: 7px;
