@@ -208,8 +208,8 @@ cursor: pointer;
 .menuToggle {
   display: block;
   position: fixed;
-  top: 5%;
-  left: 13%;
+  top: 13%;
+  left: 83%;
   
   z-index: 1;
   
@@ -238,8 +238,8 @@ cursor: pointer;
   width: 40px;
   height: 32px;
   position: fixed;
-  top: 5%;
-  left: 13%;
+  top: 13%;
+  left: 83%;
   
   cursor: pointer;
   
@@ -319,8 +319,8 @@ cursor: pointer;
 
 .menu {
    position: fixed;
-  top: 5%;
-  left: 10%;
+  top: 15%;
+  left: 80%;
   
   width: 270px;
   margin: -100px 0 0 -50px;

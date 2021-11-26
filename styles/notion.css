@@ -13,7 +13,7 @@
 
 .notion-equation-inline {
   width: 36ch;
-  
+  pointer-events: none;
   animation: typing 3s steps(37), blink .3s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
@@ -75,7 +75,7 @@
 */
 
 
-/* SUB PAGINA T */
+/* SUB PAGINA LOGO */
 
 
 .notion-block-1790b0b7867c4e2cb15df66dba30e9dd .styles_menuToggle__TyYI8 {
@@ -89,6 +89,12 @@
 font-size: 1.4rem;
 }
 
+.notion-block-1790b0b7867c4e2cb15df66dba30e9dd .notion-equation-inline {
+  font-size: 1.3em;
+  animation: unset;
+}
+
+
 /* iframe */
 
 .notion-block-1790b0b7867c4e2cb15df66dba30e9dd .notion-asset-object-fit {
@@ -97,7 +103,7 @@ border-radius: 2%;
 padding: 20px;
 }
 
-
+/* SUB PAGINA LOGO */
 
 .notion-hash-link {
   pointer-events: none;
@@ -241,7 +247,7 @@ display: none;
   line-height: 1em;
   visibility: hidden;
   opacity: 0;
-  width: 10%;
+  min-width: 50px;
   height: 20%;
   margin-top: 5px;
   color: white;
@@ -262,7 +268,7 @@ display: none;
 .notion-collection-card:nth-child(1):hover:before {
    opacity: 1;
   visibility: visible;
-  width: 15%;
+  min-width: 50px;
   top: 99%
 
 }
@@ -278,7 +284,7 @@ display: none;
   line-height: 1em;
   visibility: hidden;
   opacity: 0;
-  width: 10%;
+  min-width: 50px;
   height: 20%;
   margin-top: 5px;
   color: white;
@@ -299,7 +305,7 @@ display: none;
 .notion-collection-card:nth-child(2):hover:before {
   opacity: 1;
   visibility: visible;
-  width: 16%;
+  min-width: 50px;
   top: 99%;
   left: 10%;
 }
@@ -315,7 +321,7 @@ display: none;
   line-height: 1em;
   visibility: hidden;
   opacity: 0;
-  width: 10%;
+  min-width: 50px;
   height: 20%;
   margin-top: 5px;
   color: white;
@@ -336,7 +342,7 @@ display: none;
 .notion-collection-card:nth-child(3):hover:before {
     opacity: 1;
   visibility: visible;
-  width: 17%;
+  min-width: 60px;
   top: 99%;
   left: 20%;
 }
@@ -352,7 +358,7 @@ display: none;
   line-height: 1em;
   visibility: hidden;
   opacity: 0;
-  width: 10%;
+  min-width: 50px;
   height: 20%;
   margin-top: 5px;
   color: white;
@@ -375,7 +381,7 @@ display: none;
 .notion-collection-card:nth-child(4):hover:before {
       opacity: 1;
   visibility: visible;
-   width: 25%;
+   min-width: 60px;
   top: 99%;
   left: 20%;
 }
