@@ -78,6 +78,36 @@
 /* SUB PAGINA LOGO */
 
 
+
+
+
+.notion-block-3b4562320754433ebd226d2bc767890a {
+  margin-top: -10%;
+}
+
+
+.notion-block-fe75928eaf974dceb3105e666091b4e3{
+  display: flex;
+  position: absolute;
+  top: 5%;
+  left: 60%;
+}
+
+
+.notion-block-3e1c6817d4a3481cb16f9024b425aa6b {
+  max-width: 50%;
+}
+
+.notion-block-2d07c1bbd599422c98c23aeeaea984d2{
+  max-width: 50%;
+}
+
+
+.notion-block-f3e3abaee42543168b56899dfd081691{
+  max-width: 50%;
+}
+
+
 .notion-block-1790b0b7867c4e2cb15df66dba30e9dd .styles_menuToggle__TyYI8 {
   display: none;
 }
@@ -92,6 +122,10 @@ font-size: 1.4rem;
 .notion-block-1790b0b7867c4e2cb15df66dba30e9dd .notion-equation-inline {
   font-size: 1.3em;
   animation: unset;
+}
+
+.styles_footer__1r_c6 {
+  margin-top: -10%;
 }
 
 
@@ -655,6 +689,30 @@ grid-auto-rows: 193px
     margin-top:0;
 
 }
+
+.notion-block-29615acb944f4f11a7766d363c965766 {
+  display: flex;
+  justify-content: center;
+}
+
+.notion-block-822a548f9777427d8ce3682a6e4edfda{
+  display: flex;
+  justify-content: center;
+}
+
+.notion-block-b3efbabc6cd54561875d239d8454ba96{
+  display: flex;
+  justify-content: center;
+}
+
+.notion-block-73f48f2fdd6c4ea8a24f1b9432faab22{
+  display: flex;
+  justify-content: center;
+  margin-top: 7%;
+}
+
+
+
 }
 
 
