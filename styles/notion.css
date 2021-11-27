@@ -76,6 +76,12 @@
 
 
 /* SUB PAGINA LOGO */
+ 
+/* Desetear calculo de ancho para columna */
+.notion-block-73f48f2fdd6c4ea8a24f1b9432faab22 {
+max-width: 40%;
+}
+
 
 .notion-block-73f48f2fdd6c4ea8a24f1b9432faab22 {
 position: fixed;
@@ -86,7 +92,7 @@ top: 10%;
 
 .notion-block-ed19b8332c014ff1b8f8d3eb36306799{
 position: fixed;
-left: 30%;
+left: 25%;
 top: 15%;
 width: 40%;
 }
@@ -728,6 +734,10 @@ grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
 grid-auto-rows: 124px;
 margin-top: 52px;
 
+}
+
+.notion-block-73f48f2fdd6c4ea8a24f1b9432faab22 {
+max-width: unset;
 }
 }
 
