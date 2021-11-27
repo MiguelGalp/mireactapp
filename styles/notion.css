@@ -77,8 +77,19 @@
 
 /* SUB PAGINA LOGO */
 
+.notion-block-73f48f2fdd6c4ea8a24f1b9432faab22 {
+position: fixed;
+width: 40%;
+left: 27%;
+top: 10%;
+}
 
-
+.notion-block-ed19b8332c014ff1b8f8d3eb36306799{
+position: fixed;
+left: 30%;
+top: 15%;
+width: 40%;
+}
 
 /*
 .notion-block-3b4562320754433ebd226d2bc767890a {
@@ -131,6 +142,9 @@ font-size: 1.4rem;
 }
 
 
+
+
+
 /* iframe */
 
 .notion-block-1790b0b7867c4e2cb15df66dba30e9dd .notion-asset-object-fit {
@@ -139,7 +153,7 @@ border-radius: 2%;
 padding: 20px;
 }
 
-/* SUB PAGINA LOGO */
+/* */
 
 .notion-hash-link {
   pointer-events: none;
@@ -692,27 +706,11 @@ grid-auto-rows: 193px
 
 }
 
-.notion-block-29615acb944f4f11a7766d363c965766 {
-  display: flex;
-  justify-content: center;
+/*
+.notion-block-1790b0b7867c4e2cb15df66dba30e9dd .notion-page-content {
+  margin-top: -10%;
 }
-
-.notion-block-822a548f9777427d8ce3682a6e4edfda{
-  display: flex;
-  justify-content: center;
-}
-
-.notion-block-b3efbabc6cd54561875d239d8454ba96{
-  display: flex;
-  justify-content: center;
-}
-
-.notion-block-73f48f2fdd6c4ea8a24f1b9432faab22{
-  display: flex;
-  justify-content: center;
-  margin-top: 7%;
-}
-
+*/
 
 
 }
