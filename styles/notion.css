@@ -80,11 +80,11 @@
 
 
 
-
+/*
 .notion-block-3b4562320754433ebd226d2bc767890a {
   margin-top: -10%;
 }
-
+*/
 
 .notion-block-fe75928eaf974dceb3105e666091b4e3{
   display: flex;
@@ -124,7 +124,9 @@ font-size: 1.4rem;
   animation: unset;
 }
 
-.styles_footer__1r_c6 {
+
+
+.notion-block-1790b0b7867c4e2cb15df66dba30e9dd .styles_footer__1r_c6 {
   margin-top: -10%;
 }
 
