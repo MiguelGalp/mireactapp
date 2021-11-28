@@ -8,71 +8,6 @@
  */
 
 
-/* ANIMACION */
-
-/*
-.notion-equation-inline {
-  width: 36ch;
-  pointer-events: none;
-  animation: typing 5s steps(37), blink .3s step-end infinite alternate;
-  white-space: nowrap;
-  overflow: hidden;
-  
-  font-family: monospace;
-  font-size: 1.5em;
-}
-
-@keyframes typing {
-  from {
-    width: 0
-  }
-}
-    
-@keyframes blink {
-  0% {
-    border-color: transparent
-  }
-}
-*/
-/*
-.notion-block-14dfcbb71efe4fdaa43e97b6a9f44899 {
-  
-  
-  animation: 5s fadeIn;
-  animation-fill-mode: forwards;
-  
-  visibility: hidden;
-  font-family: monospace;
-  font-size: 2em;
-}
-
-@keyframes fadeIn {
-  99% {
-    visibility: hidden;
-  }
-  100% {
-    visibility: visible;
-  }
-}
-*/
-/*
-.notion-block-14dfcbb71efe4fdaa43e97b6a9f44899 {
-  
-      
-    opacity: 0;
-    animation: fadeIn 3s;
-    animation-delay: 3s;
-    animation-fill-mode: forwards;
-  font-family: monospace;
-  font-size: 2em;
-}
-
-@keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
-}
-
-*/
 
 
 /* SUB PAGINA LOGO */
@@ -129,40 +64,53 @@ width: 40%;
   display: none;
 }
 
+/*
 .notion-asset-wrapper iframe {
 }
-
-.tally-text {
-font-size: 1.4rem;
-}
-
-.notion-block-1790b0b7867c4e2cb15df66dba30e9dd .notion-equation-inline {
-  font-size: 1.3em;
-  animation: unset;
-}
+*/
 
 
-
+/*
 .notion-block-1790b0b7867c4e2cb15df66dba30e9dd .styles_footer__1r_c6 {
   margin-top: -10%;
 }
+*/
 
+/* ------ LAYOUT IMPORTANTE ---- */
 
+.notion-page-title-text {
 
+display: none;
 
-
-/* iframe */
-
-.notion-block-1790b0b7867c4e2cb15df66dba30e9dd .notion-asset-object-fit {
-background: var(--bg-color);
-border-radius: 2%;
-padding: 20px;
 }
 
-/* */
 
-.notion-app {
-  max-height: 50vh;
+.notion-viewport {
+  overflow: hidden !important;
+}
+
+.notion {
+  --notion-max-width: 940px;
+  --notion-header-height: 10px;
+}
+
+.notion-page {
+  padding-top: calc(max(2vh, 16px)) !important;
+  padding-bottom: calc(max(5vh, 32px)) !important;
+  line-height: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 864px;
+}
+
+.index-page {
+  --notion-max-width: 1200px;
+}
+
+
+.notion-page-scroller {
+  overflow: hidden !important;
 }
 
 
@@ -198,42 +146,6 @@ padding: 20px;
   
 }
 
-.notion-page {
-  max-width: 864px;
-  
-}
-
-
-.notion-viewport {
-  overflow: visible;
-}
-
-.notion {
-  --notion-max-width: 940px;
-  --notion-header-height: 10px;
-}
-
-.notion-page {
-  padding-top: calc(max(2vh, 16px)) !important;
-  padding-bottom: calc(max(5vh, 32px)) !important;
-  line-height: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.index-page {
-  --notion-max-width: 1200px;
-}
-
-.notion-collection-card:hover {
-  background: unset;
-}
-
-.notion-collection-header {
-  display: none;
-}
-
 .notion-text {
     
     padding: 0.5px 0.5px;
@@ -259,33 +171,16 @@ padding: 20px;
   display: none;
 }
 
-/* ESTUDIO WEB */
-/*
-.notion-block-c910877a29f04c66bf11ea29c21428c9 {
-display: flex;
-position: absolute;
-top: 0%;
-left: 14%;
 
--webkit-font-smoothing: antialiased;
--moz-osx-font-smoothing: grayscale;
+/* ---- GALLERY AND COLLECTION CARD ------- */
+
+.notion-collection-card:hover {
+  background: unset;
 }
 
-/* LOGO ATLANTICX */
-
-.notion-block-8555bb1d4b224dc984c73dcd7491613a{
-display: flex;
-position: absolute;
-top: -20%;
-left: 0%;
-
- /* transform: scale(0.8);*/
--webkit-font-smoothing: antialiased;
--moz-osx-font-smoothing: grayscale;
+.notion-collection-header {
+  display: none;
 }
-
-*/
-
 
 .notion-gallery-grid-size-medium {
   
@@ -322,170 +217,6 @@ left: 0%;
 .notion-gallery-grid .notion-property-text {
   font-size: 14px;
 }
-
-.notion-page-title-text {
-
-display: none;
-
-}
-
-/* OVERLAY -------------------------- */
-
-
-
-.notion-collection-card:nth-child(1):before {
-  
- display: flex;
-  font-size: 1.2em;
-  font-weight: 300;
-  font-family: monospace;
-  background: rgba(0, 0, 0, 0.7);
-  content: "\ \02750\ atlanticx ";
-  white-space: pre;  
-  line-height: 1em;
-  visibility: hidden;
-  opacity: 0;
-  min-width: 50px;
-  height: 20%;
-  margin-top: 5px;
-  color: white;
-
-  text-align: center;
-  border-radius: 5px;
-  padding-top: 20px; 
-  padding-bottom: -2px;
-   -webkit-transition: all 0.3s ease-out 0s;
-    transition: all 0.3s ease-out 0s;
-  
-  position: absolute;
-  z-index: 1;
-  left: 0%;
-  top: 95%;
-}
-
-.notion-collection-card:nth-child(1):hover:before {
-   opacity: 1;
-  visibility: visible;
-  min-width: 50px;
-  top: 99%
-
-}
-
-.notion-collection-card:nth-child(2):before {
-  display: flex;
-  font-size: 1.2em;
-  font-weight: 300;
-  font-family: monospace;
-   background: rgba(0, 0, 0, 0.7);
-  content: "\ \02750\ web design ";
-  white-space: pre;  
-  line-height: 1em;
-  visibility: hidden;
-  opacity: 0;
-  min-width: 50px;
-  height: 20%;
-  margin-top: 5px;
-  color: white;
-
-  text-align: center;
-  border-radius: 5px;
-  padding-top: 20px; 
-  padding-bottom: -2px;
-   -webkit-transition: all 0.3s ease-out 0s;
-    transition: all 0.3s ease-out 0s;
-  
-  position: absolute;
-  z-index: 1;
-  left: 0%;
-  top: 95%;
-}
-
-.notion-collection-card:nth-child(2):hover:before {
-  opacity: 1;
-  visibility: visible;
-  min-width: 50px;
-  top: 99%;
-  left: 10%;
-}
-
-.notion-collection-card:nth-child(3):before {
- display: flex;
-  font-size: 1.2em;
-  font-weight: 300;
-  font-family: monospace;
-   background: rgba(0, 0, 0, 0.7);
-  content: "\ \02750\ team/equipo ";
-  white-space: pre;  
-  line-height: 1em;
-  visibility: hidden;
-  opacity: 0;
-  min-width: 50px;
-  height: 20%;
-  margin-top: 5px;
-  color: white;
-
-  text-align: center;
-  border-radius: 5px;
-  padding-top: 20px; 
-  padding-bottom: -2px;
-   -webkit-transition: all 0.3s ease-out 0s;
-    transition: all 0.3s ease-out 0s;
-  
-  position: absolute;
-  z-index: 1;
-  left: 0%;
-  top: 95%;
-}
-
-.notion-collection-card:nth-child(3):hover:before {
-    opacity: 1;
-  visibility: visible;
-  min-width: 60px;
-  top: 99%;
-  left: 20%;
-}
-
-.notion-collection-card:nth-child(4):before {
-  display: flex;
-  font-size: 1.2em;
-  font-weight: 300;
-  font-family: monospace;
-   background: rgba(0, 0, 0, 0.7);
-  content: "\ \02750\ contacto/preguntas ";
-  white-space: pre;  
-  line-height: 1em;
-  visibility: hidden;
-  opacity: 0;
-  min-width: 50px;
-  height: 20%;
-  margin-top: 5px;
-  color: white;
-
-  text-align: center;
-  border-radius: 5px;
-  padding-top: 20px; 
-  padding-bottom: -2px;
-   -webkit-transition: all 0.3s ease-out 0s;
-    transition: all 0.3s ease-out 0s;
-  
-  position: absolute;
-  z-index: 1;
-  left: 0%;
-  top: 95%;
-
-
-}
-
-.notion-collection-card:nth-child(4):hover:before {
-      opacity: 1;
-  visibility: visible;
-   min-width: 60px;
-  top: 99%;
-  left: 20%;
-}
-
-
-
 
 
 /* -------------------------- */
@@ -753,18 +484,7 @@ grid-auto-rows: 193px
     margin-top:0;
 
 }
-
-/*
-.notion-block-1790b0b7867c4e2cb15df66dba30e9dd .notion-page-content {
-  margin-top: -10%;
 }
-*/
-
-
-}
-
-
-
 
 @media only screen and (max-width: 419px)   {
 
@@ -782,8 +502,6 @@ margin-top: 52px;
 max-width: unset;
 }
 }
-
-
 
 
 @media only screen and (max-height: 414px)   {
