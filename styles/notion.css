@@ -10,7 +10,7 @@
 
 /* ANIMACION */
 
-
+/*
 .notion-equation-inline {
   width: 36ch;
   pointer-events: none;
@@ -33,7 +33,7 @@
     border-color: transparent
   }
 }
-
+*/
 /*
 .notion-block-14dfcbb71efe4fdaa43e97b6a9f44899 {
   
@@ -160,6 +160,11 @@ padding: 20px;
 }
 
 /* */
+
+.notion-app {
+  max-height: 50vh;
+}
+
 
 .notion-hash-link {
   pointer-events: none;
