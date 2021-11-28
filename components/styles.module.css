@@ -48,34 +48,27 @@
     flex-direction: column;
   }
 
-  .footer > div {
-    margin-top: 1em;
-  }
-
-  .footer .settings {
-    order: 1;
-    margin-top: 0em;
-  }
-  .footer .social {
-    order: 2;
-  }
-  .footer .copyright {
-    order: 3;
-  }
 
 .social { 
-  margin: 0 auto;
-  font-size: 80%;
-  display: none;
+ position: relative;
+  top: -237px;
+  left: 269%;
+  border-radius: 50%; 
+  transform: scale(0.7); 
+ 
 }
 
-.settings  { 
-  padding: 1em;
+.settings {
+  position: relative;
+  top: -235px;
+  left: 267%;
+  border-radius: 50%; 
+  transform: scale(0.7);
 }
 
 
 .copyright {
-  padding: 0.5em; 
+  padding: -1.5em; 
   margin: 0 auto;
   font-size: 60%;
 }
@@ -85,6 +78,7 @@
 
   margin: 0 auto;
   user-select: none;
+  background: var(--bg-color);
 }
 
 .settings a,
@@ -111,6 +105,28 @@
   color: #2795e9;
 }
 
+.refresh:hover, 
+.refresh:focus {
+cursor: pointer;
+}
+
+.refresh {
+  position: relative;
+  top: -235px;
+  left: 300%; 
+  font-size: 1.9em;
+  font-weight: 700;
+  padding: 3px 8px;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg-color);
+  border: none;
+  border-radius: 50%;
+  color: var(--fg-color);
+  transition: color 250ms ease-out;
+  transform: scale(0.8); 
+}
+
 .twitter:hover {
   color: #2795e9;
 }
@@ -133,29 +149,6 @@
   margin-top: 2em;
   width: 100%;
 }
-
-.refresh:hover, 
-.refresh:focus {
-cursor: pointer;
-}
-
-
-
-.refresh {
-  margin: 10px 55px;
-  font-size: 1.9em;
-  font-weight: 900;
-  padding: 3px 8px;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--bg-color);
-  border: none;
-  border-radius: 50%;
-  color: var(--fg-color);
-  transition: color 250ms ease-out;
-  
-}
-
 
 
 @media only screen and (min-width: 567px) {
@@ -207,14 +200,55 @@ cursor: pointer;
 
 .menuToggle {
   display: block;
-  position: fixed;
-  top: 13%;
-  left: 83%;
-  
+  position: relative;
+  bottom: 1000px;
+  left: 330px;
+  transform: scale(0.8);
   z-index: 1;
+ 
   
   -webkit-user-select: none;
   user-select: none;
+}
+
+
+.menuToggle input
+{
+  
+  width: 40px;
+  height: 32px;
+  position: relative;
+  top: 35px;
+  left: 6px;
+  
+  cursor: pointer;
+  
+  opacity: 0; /* hide this */
+  z-index: 2; /* and place it over the hamburger */
+  
+  -webkit-touch-callout: none;
+}
+
+.menu {
+   position: absolute;
+  top: 65%;
+  left: 0%;
+  
+  width: 270px;
+  margin: -100px 0 0 -50px;
+  padding: 50px;
+  padding-top: 155px;
+  opacity: 0.7;
+  border-radius: 10%;
+  background: #ededed;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  /* to stop flickering of text in safari */
+  
+  transform-origin: 0% 0%;
+  transform: translate(-900%, 0);
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 }
 
 .menuToggle a
@@ -231,23 +265,6 @@ cursor: pointer;
 }
 
 
-.menuToggle input
-{
-  
- 
-  width: 40px;
-  height: 32px;
-  position: fixed;
-  top: 13%;
-  left: 83%;
-  
-  cursor: pointer;
-  
-  opacity: 0; /* hide this */
-  z-index: 2; /* and place it over the hamburger */
-  
-  -webkit-touch-callout: none;
-}
 
 /*
  * Just a quick hamburger
@@ -259,14 +276,14 @@ cursor: pointer;
   transform: scale(.8, .6);
   display: block;
   opacity: 0.7;
-  width: 39px;
-  height: 3px;
+  width: 44px;
+  height: 6px;
   margin-bottom: 7px;
   position: relative;
   top: 0px;
-  padding: 2px;
+  padding: 2.5px;
   left: 0px;
-  background: var(--fg-color);
+  background: rgba(248,248,255, 0.8);
   border-radius: 3px;
   
   z-index: 1;
@@ -317,27 +334,7 @@ cursor: pointer;
   transform: rotate(-45deg) translate(0, -1px);
 }
 
-.menu {
-   position: fixed;
-  top: 15%;
-  left: 80%;
-  
-  width: 270px;
-  margin: -100px 0 0 -50px;
-  padding: 50px;
-  padding-top: 155px;
-  opacity: 0.7;
-  border-radius: 10%;
-  background: #ededed;
-  list-style-type: none;
-  -webkit-font-smoothing: antialiased;
-  /* to stop flickering of text in safari */
-  
-  transform-origin: 0% 0%;
-  transform: translate(-900%, 0);
-  
-  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
-}
+
 
 .menu li
 {
