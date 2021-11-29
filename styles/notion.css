@@ -9,6 +9,12 @@
 
 
 
+/* BACKGROUND DIVIDES */
+
+.notion-app {
+  
+}
+
 
 /* SUB PAGINA LOGO */
  
@@ -196,6 +202,7 @@ display: none;
 .notion-gallery-grid {
   display: block;
   border-top: none;
+  margin-top: -25px;
 }
 
 .notion-gallery-grid .notion-collection-card-property {
@@ -443,6 +450,9 @@ display: none;
   box-shadow: 0 8px 40px 0 rgb(0 0 0 / 21%);
 }
 
+.dark-mode .notion-app {
+  background: repeating-linear-gradient(#fff, #fff 49.9%, #2E3437 50.1%, #2E3437 100%);
+}
 
 
 .dark-mode .notion-header {
