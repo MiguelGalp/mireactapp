@@ -51,8 +51,8 @@
 
 .social { 
  position: relative;
-  top: -237px;
-  left: 269%;
+  top: -217px;
+  left: 247%;
   border-radius: 50%; 
   transform: scale(0.7); 
  
@@ -60,11 +60,14 @@
 
 .settings {
   position: relative;
-  top: -235px;
-  left: 267%;
+  top: -220px;
+  left: 247%;
   border-radius: 50%; 
   transform: scale(0.7);
 }
+
+
+
 
 
 .copyright {
@@ -112,8 +115,8 @@ cursor: pointer;
 
 .refresh {
   position: relative;
-  top: -235px;
-  left: 300%; 
+  top: -210px;
+  left: 278%; 
   font-size: 1.9em;
   font-weight: 700;
   padding: 3px 8px;
@@ -201,8 +204,8 @@ cursor: pointer;
 .menuToggle {
   display: block;
   position: relative;
-  bottom: 1000px;
-  left: 330px;
+  bottom: 980px;
+  left: 318px;
   transform: scale(0.8);
   z-index: 1;
  
@@ -388,9 +391,18 @@ cursor: pointer;
 /* Proporcionar el Burguer */
 /* Ver que la transform afecta la posición del menu */
 
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 419px)  {
-  .menuToggle {
-    transform: scale(0.8);
+.menuToggle {
+    left: 180px;
+    
   }
 
 .menu {
@@ -398,16 +410,26 @@ cursor: pointer;
   left: -40px;
 }
 
-.menuToggle input {
+.menuToggle span
+{
+background: var(--fg-color);
+}
 
-left: 60%;
+.refresh {
+    left: 180px;
+    
+  }
+
+.social, .settings {
+    left: 145px;
+    
+  }
+
+
 
 }
 
-
-}
-
-
+/*
 @media only screen and (max-height: 419px)  {
   .menuToggle {
     transform: scale(0.8);
@@ -423,6 +445,36 @@ left: 60%;
 left: 60%;
 
 }
+}
+*/
+
+@media only screen and (max-width: 320px)  {
+.menuToggle {
+    left: 160px;
+    
+  }
+
+.menu {
+
+  left: -40px;
+}
+
+.menuToggle span
+{
+background: var(--fg-color);
+}
+
+.refresh {
+    left: 160px;
+    
+  }
+
+.social, .settings {
+    left: 125px;
+    
+  }
+
+
 
 }
 
