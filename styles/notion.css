@@ -8,9 +8,84 @@
  */
 
 
-/* SUB PAGINA LOGO */
+/* SUB PAGINA ANTWEB */
+
+
+/* PADDING */
+.notion-block-1790b0b7867c4e2cb15df66dba30e9dd .notion-text {
+
+padding: 2.9px 2px;
+margin-bottom: 1px;
+}
+
+
+/* Margen del LOGO */
+
+.notion-block-1049cea860a1453785d2e915cef4b90a  {
+margin-top: 6px;
+}
+
+
+/* COLUMNA IZQUIERDA CENTRAR */
+
+.notion-block-f28dcd5db5a14c889f6db1b4c2920ded {
+width: 100%;
+text-align: center;
+}
+.notion-block-1790b0b7867c4e2cb15df66dba30e9dd .styles_refresh__7RVMj {
+display: flex;
+position: relative;
+top: -305px;
+left: 211px;
+transform: scale(0.5);
+z-index: 2;
+}
+
+.notion-block-1790b0b7867c4e2cb15df66dba30e9dd .styles_settings__1ed8a {
+display: flex;
+position: relative;
+top: -320px;
+left: 176px;
+transform: scale(0.5);
+z-index: 2;
+}
+
+.notion-block-1790b0b7867c4e2cb15df66dba30e9dd .styles_social__235gY {
+display: flex;
+position: relative;
+top: -315px;
+left: 176px;
+transform: scale(0.5);
+z-index: 2;
+}
+
+.notion-block-3a15cf64d6a9427494ea8b64d93bd418 {
+z-index: 1;
+
+}
+/* Hormigas */
+
+.notion-block-a05227dc57284e71adad27dd7ebc16dc {
+display: flex;
+position: relative;
+top: -115px;
+left: 230px;
+transform: scale(0.9);
+z-index: 1;
+}
+
+/* PADDING DE SUBTITULOS EN CAJAS */
+
+.strechy
+
  
 /* Desetear calculo de ancho para columna */
+
+.notion-block-9a39dfa0a6204974b88b72cf0db4dfc8 {
+margin-top: 10px;
+}
+
+
 .notion-block-73f48f2fdd6c4ea8a24f1b9432faab22 {
 max-width: 40%;
 }
@@ -30,11 +105,11 @@ top: 15%;
 width: 40%;
 }
 
-/*
+
 .notion-block-3b4562320754433ebd226d2bc767890a {
   margin-top: -10%;
 }
-*/
+
 
 .notion-block-fe75928eaf974dceb3105e666091b4e3{
   display: flex;
@@ -45,18 +120,21 @@ width: 40%;
 
 
 .notion-block-3e1c6817d4a3481cb16f9024b425aa6b {
-  max-width: 50%;
+  max-width: 70%;
 }
 
-.notion-block-2d07c1bbd599422c98c23aeeaea984d2{
-  max-width: 50%;
+.notion-block-2d07c1bbd599422c98c23aeeaea984d2 {
+  max-width: 70%;
 }
 
 
 .notion-block-f3e3abaee42543168b56899dfd081691{
-  max-width: 50%;
+  max-width: 70%;
 }
 
+.notion-block-865d892fabc44db6857bcf037f47e2f0 {
+  max-width: 70%;
+}
 
 .notion-block-1790b0b7867c4e2cb15df66dba30e9dd .styles_menuToggle__TyYI8 {
   display: none;
@@ -259,6 +337,7 @@ display: none;
 
 .notion-callout {
   margin: 0.75em 0;
+  line-height: 1.6em;
 }
 
 .notion-hr {

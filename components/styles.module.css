@@ -415,6 +415,10 @@ cursor: pointer;
 background: var(--fg-color);
 }
 
+.darkmode .menuToggle span {
+background: pink;
+}
+
 .refresh {
     left: 180px;
     
@@ -473,8 +477,9 @@ background: var(--fg-color);
     left: 125px;
     
   }
-
-
-
 }
+
+/* STYLING OF SUB PAGE ANTWEB */
+
+
 
