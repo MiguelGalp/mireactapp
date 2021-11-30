@@ -8,6 +8,101 @@
  */
 
 
+/* NOTION USER */
+
+.notion-user {
+
+transform: scale(1.3);
+margin-left: 21px;
+}
+
+.notion-block-29c559f44a9042cf8034c1689a1b62ee, .notion-block-e063c8f03ea14f35ad65d9540362292e, .notion-block-393a4acc2c8f496f9c31b00046f7dd40 {
+margin-top: 5px;
+
+}
+
+.notion-block-7831622b64804f2aa1c81e8aa3dd76cc, .notion-block-f2260a9d174d4dd8a0d87380e8b1bebc {
+display: flex;
+margin-top: 15px;
+margin-left: 45px;
+
+}
+
+.notion-block-7831622b64804f2aa1c81e8aa3dd76cc:before {
+  display: flex;
+  font-size: 1.2em;
+  font-weight: 300;
+  font-family: monospace;
+  background: rgba(0, 0, 0, 0.7);
+  content: "\ Miguel Galperin ";
+  white-space: pre;  
+  line-height: 1em;
+  visibility: hidden;
+  opacity: 0;
+  min-width: 50px;
+  height: 7%;
+  margin-top: 1px;
+  color: white;
+
+  text-align: center;
+  border-radius: 5px;
+  padding-top: 20px; 
+  padding-bottom: -2px;
+   -webkit-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+  
+  position: absolute;
+  z-index: 1;
+  left: 0%;
+  top: 95%;
+}
+
+.notion-block-7831622b64804f2aa1c81e8aa3dd76cc:hover:before {
+   opacity: 1;
+  visibility: visible;
+  min-width: 50px;
+  top: 99%
+
+}
+
+.notion-block-f2260a9d174d4dd8a0d87380e8b1bebc:before {
+  display: flex;
+  font-size: 1.2em;
+  font-weight: 300;
+  font-family: monospace;
+  background: rgba(0, 0, 0, 0.7);
+  content: "\ Diseñadore ";
+  white-space: pre;  
+  line-height: 1em;
+  visibility: hidden;
+  opacity: 0;
+  min-width: 50px;
+  height: 7%;
+  margin-top: 1px;
+  color: white;
+
+  text-align: center;
+  border-radius: 5px;
+  padding-top: 20px; 
+  padding-bottom: -2px;
+   -webkit-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+  
+  position: absolute;
+  z-index: 1;
+  left: 0%;
+  top: 95%;
+}
+
+.notion-block-f2260a9d174d4dd8a0d87380e8b1bebc:hover:before {
+   opacity: 1;
+  visibility: visible;
+  min-width: 50px;
+  top: 99%
+
+}
+
+
 /* SUB PAGINA ANTWEB */
 
 
@@ -22,9 +117,12 @@ margin-bottom: 1px;
 /* Margen del LOGO */
 
 .notion-block-1049cea860a1453785d2e915cef4b90a  {
-margin-top: 6px;
+padding-top: 4em;
 }
 
+.notion-block-3a15cf64d6a9427494ea8b64d93bd418 { 
+padding-top: -5em;
+}
 
 /* COLUMNA IZQUIERDA CENTRAR */
 
@@ -35,7 +133,7 @@ text-align: center;
 .notion-block-1790b0b7867c4e2cb15df66dba30e9dd .styles_refresh__7RVMj {
 display: flex;
 position: relative;
-top: -305px;
+top: -270px;
 left: 211px;
 transform: scale(0.5);
 z-index: 2;
@@ -44,7 +142,7 @@ z-index: 2;
 .notion-block-1790b0b7867c4e2cb15df66dba30e9dd .styles_settings__1ed8a {
 display: flex;
 position: relative;
-top: -320px;
+top: -268px;
 left: 176px;
 transform: scale(0.5);
 z-index: 2;
@@ -53,7 +151,7 @@ z-index: 2;
 .notion-block-1790b0b7867c4e2cb15df66dba30e9dd .styles_social__235gY {
 display: flex;
 position: relative;
-top: -315px;
+top: -270px;
 left: 176px;
 transform: scale(0.5);
 z-index: 2;
@@ -338,6 +436,7 @@ display: none;
 .notion-callout {
   margin: 0.75em 0;
   line-height: 1.6em;
+  font-family: monospace;
 }
 
 .notion-hr {
