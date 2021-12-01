@@ -172,9 +172,53 @@ transform: scale(0.9);
 z-index: 1;
 }
 
-/* PADDING DE SUBTITULOS EN CAJAS */
+/* MOBILE ADAPT DE SUB-PAGINA */
 
-.strechy
+
+@media only screen and (max-width: 419px)  {
+
+.notion-block-1790b0b7867c4e2cb15df66dba30e9dd .notion-block-f28dcd5db5a14c889f6db1b4c2920ded {
+    max-width: 80%;
+    margin-top: -40px;
+    max-height: 40%;
+  }
+
+.notion-block-1790b0b7867c4e2cb15df66dba30e9dd .notion-block-8f1b37b082f34601863e963031a885cd{
+    display: none;
+  }
+
+.notion-block-1790b0b7867c4e2cb15df66dba30e9dd .notion-block-1049cea860a1453785d2e915cef4b90a {
+    transform: scale(0.8);
+    margin-top: -50px;
+  }
+
+.notion-block-1790b0b7867c4e2cb15df66dba30e9dd .styles_refresh__7RVMj {
+
+left: 165px;
+transform: scale(0.9);
+top: -340px;
+
+}
+
+.notion-block-1790b0b7867c4e2cb15df66dba30e9dd .styles_social__235gY {
+
+left: 133px;
+transform: scale(0.7);
+top: -380px;
+
+}
+
+.notion-block-1790b0b7867c4e2cb15df66dba30e9dd .styles_settings__1ed8a {
+
+left: 133px;
+transform: scale(0.7);
+top: -420px;
+
+}
+
+
+
+}
 
  
 /* Desetear calculo de ancho para columna */
@@ -269,7 +313,7 @@ display: none;
 
 
 .index-page {
-  --notion-max-height: 680px;
+  --notion-max-height: 980px;
 }
 
 
