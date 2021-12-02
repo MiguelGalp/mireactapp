@@ -255,6 +255,30 @@ margin-left: 48%;
 margin-top: 25px;
 }
 
+/* MOBILE ADAPT EL NINO/WORK */
+
+.notion-block-69c7a440655f4c5fbedcd482d8e0e4a5 {
+    margin-left: -35%;
+  }
+
+.notion-block-e146ea9379534abdbdd25be109c76e26 {
+    margin-left: -35%;
+    margin-top: unset;
+    
+  }
+
+.notion-block-8b0ec4c829cb4805a34e912b2ad24f9c {
+    margin-left: -35%;
+  }
+
+.notion-block-9bd06f0ecfed431499fe569136f256ef {
+    margin-top: -5%;
+  }
+
+
+
+/* MOBILE ADAPT ANTWEB */
+
 .notion-block-1790b0b7867c4e2cb15df66dba30e9dd .notion-block-f28dcd5db5a14c889f6db1b4c2920ded {
     max-width: 70%;
     margin-top: -40px;
@@ -363,18 +387,15 @@ display: none;
 
 display: flex;
 position: relative;
-top: -420px;
+top: -500px;
 left:140px;
 transform: scale(0.3);
 z-index: 2;
 
 }
-
-
-
 }
 
- 
+/* FIN MOBILE ADAPT */ 
 /* Desetear calculo de ancho para columna */
 
 .notion-block-9a39dfa0a6204974b88b72cf0db4dfc8 {
