@@ -12,9 +12,18 @@
 
 .notion-user {
 
-transform: scale(1.3);
-margin-left: 21px;
+transform: scale(1.9);
+margin-left: 48%;
+margin-top: 25px;
 }
+
+.notion-block-959366e24a904c258493ea5071ab9293 {
+margin-top: -5px;
+
+}
+
+
+
 
 .notion-block-29c559f44a9042cf8034c1689a1b62ee, .notion-block-e063c8f03ea14f35ad65d9540362292e, .notion-block-393a4acc2c8f496f9c31b00046f7dd40 {
 margin-top: 5px;
@@ -166,6 +175,8 @@ display: none;
 
 
 /* PADDING */
+
+
 .notion-block-1790b0b7867c4e2cb15df66dba30e9dd .notion-text {
 
 padding: 2.9px 2px;
@@ -237,6 +248,13 @@ z-index: 1;
 
 @media only screen and (max-width: 419px)  {
 
+.notion-user {
+
+transform: scale(2.2);
+margin-left: 48%;
+margin-top: 25px;
+}
+
 .notion-block-1790b0b7867c4e2cb15df66dba30e9dd .notion-block-f28dcd5db5a14c889f6db1b4c2920ded {
     max-width: 70%;
     margin-top: -40px;
@@ -281,22 +299,26 @@ display: none;
 .notion-block-1790b0b7867c4e2cb15df66dba30e9dd  .notion-block-25ab17025c8a4225acf5ac51673b5c07, .notion-block-dc37481b05ce47edae319b9c16c5b3a6,.notion-block-28a2ff754e224401af05b77bc518b2dd, .notion-block-1c1e15bd64a3435b9190e3cca1bafa06 {
 
 display: flex;
+font-family: monospace;
+font-size:1.2em;
 }
 
 .notion-block-1790b0b7867c4e2cb15df66dba30e9dd  .notion-block-dc37481b05ce47edae319b9c16c5b3a6 {
 
 position: absolute;
-top:8vh;
+top:27%;
 left:70vw;
 color: black;
+writing-mode: vertical-lr;
 /* color: #2E3437; */
 }
 
 .notion-block-1790b0b7867c4e2cb15df66dba30e9dd  .notion-block-25ab17025c8a4225acf5ac51673b5c07 {
 
 position: absolute;
-top:2vh;
+top:1%;
 left:70vw;
+writing-mode: vertical-lr;
 color: black;
 /* color: #2E3437; */
 }
@@ -304,10 +326,11 @@ color: black;
 .notion-block-1790b0b7867c4e2cb15df66dba30e9dd  .notion-block-28a2ff754e224401af05b77bc518b2dd {
 
 position: absolute;
-top:5vh;
+top:54%;
 left:70vw;
 color: black;
 /* color: #2E3437; */
+writing-mode: vertical-lr;
 }
 
 .notion-block-1790b0b7867c4e2cb15df66dba30e9dd  .notion-block-1c1e15bd64a3435b9190e3cca1bafa06 {
@@ -383,7 +406,7 @@ width: 40%;
 }
 
 .notion-block-865d892fabc44db6857bcf037f47e2f0 {
-  max-width: 70%;
+  width: 100%;
 }
 
 .notion-block-1790b0b7867c4e2cb15df66dba30e9dd .styles_menuToggle__TyYI8 {
