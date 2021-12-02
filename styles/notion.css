@@ -174,6 +174,8 @@ display: none;
 }
 
 
+
+
 /* PADDING */
 
 
@@ -248,6 +250,11 @@ z-index: 1;
 
 @media only screen and (max-width: 419px)  {
 
+
+.dark-mode {
+  background: unset !important;
+}
+
 .notion-user {
 
 transform: scale(2.2);
@@ -281,7 +288,7 @@ margin-top: 25px;
 
 .notion-block-1790b0b7867c4e2cb15df66dba30e9dd .notion-block-f28dcd5db5a14c889f6db1b4c2920ded {
     max-width: 70%;
-    margin-top: -40px;
+    margin-top: 10px;
     max-height: 40%;
   }
 
@@ -331,7 +338,7 @@ margin-left: 3px;
 .notion-block-1790b0b7867c4e2cb15df66dba30e9dd  .notion-block-25ab17025c8a4225acf5ac51673b5c07 {
 
 position: absolute;
-top:1%;
+top:6%;
 left:70vw;
 writing-mode: vertical-lr;
 color: black;
@@ -343,7 +350,7 @@ margin-left: 3px;
 .notion-block-1790b0b7867c4e2cb15df66dba30e9dd  .notion-block-dc37481b05ce47edae319b9c16c5b3a6 {
 
 position: absolute;
-top:20%;
+top:23%;
 left:70vw;
 color: black;
 writing-mode: vertical-lr;
@@ -357,7 +364,7 @@ margin-left: 3px;
 .notion-block-1790b0b7867c4e2cb15df66dba30e9dd  .notion-block-28a2ff754e224401af05b77bc518b2dd {
 
 position: absolute;
-top:40%;
+top:43%;
 left:70vw;
 color: black;
 /* color: #2E3437; */
@@ -387,12 +394,15 @@ display: none;
 
 display: flex;
 position: relative;
-top: -500px;
+top: -800px;
 left:140px;
 transform: scale(0.3);
 z-index: 2;
 
 }
+
+
+
 }
 
 /* FIN MOBILE ADAPT */ 

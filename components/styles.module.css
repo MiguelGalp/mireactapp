@@ -412,7 +412,7 @@ cursor: pointer;
 
 .menuToggle span
 {
-background: var(--fg-color);
+background: #2E3437;
 }
 
 .darkmode .menuToggle span {
@@ -465,7 +465,7 @@ left: 60%;
 
 .menuToggle span
 {
-background: var(--fg-color);
+background: var(--bg-color);
 }
 
 .refresh {
