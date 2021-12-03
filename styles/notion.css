@@ -8,7 +8,13 @@
  */
 
 
-/* ROOT */
+/* FOOTER */
+
+.styles_footer__1r_c6 {
+margin-top: -20%;
+
+}
+
 
 
 /* NOTION USER */
@@ -456,6 +462,15 @@ transform: scale(0.3);
 z-index: 2;
 
 }
+
+/* POSICION Y TAMAÑO REFRESH EN HOME DE MOBILE */
+
+.notion-block-90f568013e514206839a18df53ba8a45 .styles_refresh__7RVMj {
+
+display: none;
+
+}
+
 
 
 
