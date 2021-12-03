@@ -52,7 +52,7 @@
 .social { 
  position: relative;
   top: -217px;
-  left: 247%;
+  left: 265%;
   border-radius: 50%; 
   transform: scale(0.7); 
  
@@ -67,7 +67,7 @@
 .settings {
   position: relative;
   top: -220px;
-  left: 247%;
+  left: 265%;
   border-radius: 50%; 
   transform: scale(0.7);
 }
@@ -118,21 +118,22 @@
 
 
 .toggleDarkMode:hover {
-  color: #2795e9;
+  color: black;
 }
 
 .refresh:hover, 
 .refresh:focus {
 cursor: pointer;
+color: tomato;
 }
 
 .refresh {
   position: relative;
   top: -210px;
-  left: 273%; 
-  font-size: 1.8em;
+  left: 296%; 
+  font-size: 1em;
   font-weight: 400;
-  padding: 8px 16px;
+  padding: 8px 13px;
   justify-content: center;
   align-items: center;
   background-color: var(--bg-color);
@@ -140,7 +141,7 @@ cursor: pointer;
   border-radius: 75%;
   color: var(--fg-color);
   transition: color 250ms ease-out;
-  transform: scale(0.6); 
+  transform: scale(0.87); 
 }
 
 .twitter:hover {
@@ -217,7 +218,7 @@ cursor: pointer;
 .menuToggle {
   display: block;
   position: relative;
-  bottom: 980px;
+  bottom: 970px;
   left: 318px;
   transform: scale(0.8);
   z-index: 1;

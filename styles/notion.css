@@ -39,6 +39,21 @@ pointer-events: none;
 
 }
 
+/* CONTACTO EN CONTACTO */
+
+.notion-block-1790b0b7867c4e2cb15df66dba30e9dd .notion-block-a5a071f0f3f948078b7d283d94231c5e {
+margin-left: 40% !important;
+transform: scale(1.1);
+
+}
+
+/* REFRESH EN SUBPAGINA WORK */
+
+.notion-block-e1c01e5338484adf9b315a6c06efda84 .styles_refresh__7RVMj {
+margin-left: -8px;
+
+}
+
 
 
 .notion-block-29c559f44a9042cf8034c1689a1b62ee, .notion-block-e063c8f03ea14f35ad65d9540362292e, .notion-block-393a4acc2c8f496f9c31b00046f7dd40 {
@@ -149,7 +164,7 @@ display: none;
 .notion-block-e1c01e5338484adf9b315a6c06efda84 .styles_refresh__7RVMj {
 
 
-margin-left: -12px;
+margin-left: -8px;
 
 }
 
@@ -223,8 +238,8 @@ text-align: center;
 display: flex;
 position: relative;
 top: -270px;
-left: 211px;
-transform: scale(0.5);
+left: 210px;
+transform: scale(0.7);
 z-index: 2;
 }
 
