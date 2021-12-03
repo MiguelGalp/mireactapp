@@ -58,6 +58,12 @@
  
 }
 
+.social svg { 
+
+  transform: scale(0.7); 
+ 
+}
+
 .settings {
   position: relative;
   top: -220px;
@@ -104,6 +110,13 @@
   transition: color 50ms ease-out;
 }
 
+.settings svg { 
+
+  transform: scale(0.8); 
+ 
+}
+
+
 .toggleDarkMode:hover {
   color: #2795e9;
 }
@@ -117,9 +130,9 @@ cursor: pointer;
   position: relative;
   top: -210px;
   left: 278%; 
-  font-size: 1.9em;
-  font-weight: 700;
-  padding: 3px 8px;
+  font-size: 1.8em;
+  font-weight: 400;
+  padding: 1px 8px;
   justify-content: center;
   align-items: center;
   background-color: var(--bg-color);
@@ -415,10 +428,6 @@ cursor: pointer;
 background: #2E3437;
 }
 
-.darkmode .menuToggle span {
-background: pink;
-}
-
 .refresh {
     left: 180px;
     
@@ -429,6 +438,10 @@ background: pink;
     
   }
 
+.copyright {
+    color: #2E3437;
+    
+  }
 
 
 }
