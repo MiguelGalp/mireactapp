@@ -10,7 +10,6 @@
 
 /* ROOT */
 
-:root 
 
 /* NOTION USER */
 
@@ -35,11 +34,10 @@ display: none;
 
 /* BLOQUEOS A CLICKS EN IMAGENES 3 y 4 */
 
-.notion-collection-card-size-medium:nth-of-type(3), .notion-collection-card-size-medium:nth-of-type(4) {
+.notion-collection-card-size-medium {
 pointer-events: none;
 
 }
-
 
 
 
@@ -268,10 +266,20 @@ z-index: 1;
 
 @media only screen and (max-width: 419px)  {
 
+.styles_refresh__7RVMj {
+  left: 172px !important;
+  top: -215px !important; 
+}
+
 
 .dark-mode {
   background: unset !important;
 }
+
+notion-block-4140e0880aca4cd89b79211bc8a4c269 {
+  background: unset !important;
+}
+
 
 .notion-user {
 
