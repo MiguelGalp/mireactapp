@@ -299,7 +299,7 @@ cursor: pointer;
   top: 0px;
   padding: 2.5px;
   left: 0px;
-  background: rgba(248,248,255, 0.8);
+  background: #2E3437 !important;
   border-radius: 3px;
   
   z-index: 1;
@@ -414,7 +414,7 @@ cursor: pointer;
 
 @media only screen and (max-width: 419px)  {
 .menuToggle {
-    left: 180px;
+    left: 45vw;
     
   }
 
@@ -429,12 +429,12 @@ background: #2E3437;
 }
 
 .refresh {
-    left: 180px;
+    left: 42vw !important;
     
   }
 
 .social, .settings {
-    left: 145px;
+    left: 35vw;
     
   }
 
@@ -445,6 +445,42 @@ background: #2E3437;
 
 
 }
+
+
+@media only screen and (max-width: 376px)  {
+.menuToggle {
+    left: 47vw !important;
+    
+  }
+
+.menu {
+
+  left: -40px;
+}
+
+.menuToggle span
+{
+background: #2E3437;
+}
+
+.refresh {
+    left: 46vw !important;
+    
+  }
+
+.social, .settings {
+    left: 38vw !important;
+    
+  }
+
+.copyright {
+    color: #2E3437;
+    
+  }
+
+
+}
+
 
 /*
 @media only screen and (max-height: 419px)  {
@@ -465,9 +501,10 @@ left: 60%;
 }
 */
 
+
 @media only screen and (max-width: 320px)  {
 .menuToggle {
-    left: 160px;
+    left: 120%;
     
   }
 
@@ -482,12 +519,12 @@ background: var(--bg-color);
 }
 
 .refresh {
-    left: 160px;
-    
+    left: 150px;
+    color: black;
   }
 
 .social, .settings {
-    left: 125px;
+    left: 100%;
     
   }
 }

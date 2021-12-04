@@ -190,6 +190,17 @@ display: none;
 }
 
 
+/* POSICION TWITTER EN ANTWEB */
+
+.notion-block-1790b0b7867c4e2cb15df66dba30e9dd .styles_twitter__WwfaA {
+padding: unset;
+}
+
+/* POSICION CONTACTO */
+
+.notion-block-a5a071f0f3f948078b7d283d94231c5e {
+padding: 8px 10px !important;
+}
 
 
 /* PADDING */
@@ -222,8 +233,8 @@ text-align: center;
 .notion-block-1790b0b7867c4e2cb15df66dba30e9dd .styles_refresh__7RVMj {
 display: flex;
 position: relative;
-top: -270px;
-left: 211px;
+top: -280px;
+left: 203px;
 transform: scale(0.5);
 z-index: 2;
 }
@@ -261,9 +272,69 @@ transform: scale(0.9);
 z-index: 1;
 }
 
+/* SUBPAGINA EL NINO/WORK */
+
+.notion-block-e1c01e5338484adf9b315a6c06efda84 .styles_twitter__WwfaA {
+padding: unset;
+display: flex;
+position: relative;
+top: -100px;
+
+}
+
+.notion-block-e1c01e5338484adf9b315a6c06efda84 .styles_settings__1ed8a{
+top: -300px;
+}
+
+.notion-block-e1c01e5338484adf9b315a6c06efda84 .styles_refresh__7RVMj{
+top: -281px;
+left: 263%;
+}
+
+
+
+
+
+
 /* MOBILE ADAPT DE SUB-PAGINA */
 
+/* IPAD SUB PAGINA EL NINO*WORk*/
 
+@media only screen and (max-width: 769px) {
+
+.notion-block-e1c01e5338484adf9b315a6c06efda84 .notion-callout {
+width: 80%;
+
+}
+
+.notion-block-4ae70cf5564a41618757f9c52c6b5285{
+margin-left: -150px;
+margin-top: -55px;
+}
+
+.notion-block-e1c01e5338484adf9b315a6c06efda84 .styles_footer__1r_c6{
+margin-left: 100px;
+margin-top: -70px;
+
+}
+
+.notion-block-e1c01e5338484adf9b315a6c06efda84 .notion-block-e146ea9379534abdbdd25be109c76e26 {
+margin-top: -62px !important;
+
+}
+
+.notion-block-e1c01e5338484adf9b315a6c06efda84 .notion-block-e39e5f114455442bb1392a8d15b1bca1{
+margin-top: -0px !important;
+
+}
+
+.notion-block-e1c01e5338484adf9b315a6c06efda84 .notion-block-9bd06f0ecfed431499fe569136f256ef{
+margin-top: 60px !important;
+
+}
+
+
+}
 @media only screen and (max-width: 419px)  {
 
 .styles_refresh__7RVMj {
