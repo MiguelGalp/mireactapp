@@ -51,8 +51,8 @@
 
 .social { 
  position: relative;
-  top: -217px;
-  left: 247%;
+  top: -209px;
+  left: 260%;
   border-radius: 50%; 
   transform: scale(0.7); 
  
@@ -66,8 +66,8 @@
 
 .settings {
   position: relative;
-  top: -220px;
-  left: 247%;
+  top: -215px;
+  left: 260%;
   border-radius: 50%; 
   transform: scale(0.7);
 }
@@ -128,8 +128,8 @@ cursor: pointer;
 
 .refresh {
   position: relative;
-  top: -210px;
-  left: 273%; 
+  top: -207px;
+  left: 285%; 
   font-size: 1.8em;
   font-weight: 400;
   padding: 8px 16px;
@@ -140,7 +140,7 @@ cursor: pointer;
   border-radius: 75%;
   color: var(--fg-color);
   transition: color 250ms ease-out;
-  transform: scale(0.6); 
+  transform: scale(0.57); 
 }
 
 .twitter:hover {
@@ -299,7 +299,7 @@ cursor: pointer;
   top: 0px;
   padding: 2.5px;
   left: 0px;
-  background: #2E3437 !important;
+  background: #ADAFB9 !important;
   border-radius: 3px;
   
   z-index: 1;
@@ -403,6 +403,39 @@ cursor: pointer;
 
 /* Proporcionar el Burguer */
 /* Ver que la transform afecta la posición del menu */
+
+
+@media only screen and (min-width: 414px) and (max-width: 768px) {
+.menuToggle {
+    left: 42vw;
+    
+  }
+
+.menu {
+
+  left: -40px;
+}
+
+.menuToggle span
+{
+background: #2E3437;
+}
+
+.refresh {
+    left: 41.7vw !important;
+    
+  }
+
+.social, .settings {
+    left: 37.5vw;
+    
+  }
+
+
+
+}
+
+
 
 
 
