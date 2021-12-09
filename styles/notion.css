@@ -307,47 +307,18 @@ display: none;
 
 @media only screen and (max-width: 769px) {
 
-.notion-collection-card:nth-of-type(1)::after {
-  display: flex;
-  position: absolute;
-  font-family: monospace;
-  font-size: 1.1em;
-  top: 4vh;
-  left: 0vw;
-  content: " ✦ comunidades";
-  color: #5D5F64;
-  z-index: 999;
-  padding: 4px 4px;
-  writing-mode: vertical-rl;
+.notion-collection-card-size-medium:nth-of-type(1)::before {
+color: black;
+left: -15vw;
+top: 1vh;
+
 }
 
-.notion-collection-card:nth-of-type(2)::after  {
-  display: flex;
-  position: absolute;
-  font-family: monospace;
-  font-size: 1.1em;
-  top: 30vh;
-  left: 0vw;
-  content: " ✧ diseño";
-  color: #5D5F64;
-  z-index: 999;
-  padding: 4px 4px;
-  writing-mode: vertical-rl;
+.notion-gallery-grid-size-medium {
+width: 80%;
+margin-left: 15vw;
 }
 
-.notion-collection-card:nth-of-type(3)::after  {
-  display: flex;
-  position: absolute;
-  font-family: monospace;
-  font-size: 1.1em;
-  top: 50vh;
-  left: 0vw;
-  content: " ✦ deploy 3.0";
-  color: #5D5F64;
-  z-index: 999;
-  padding: 4px 4px;
-  writing-mode: vertical-rl;
-}
 
 
 .notion-block-e1c01e5338484adf9b315a6c06efda84 .notion-callout {
@@ -385,49 +356,18 @@ margin-top: 60px !important;
 }
 @media only screen and (max-width: 419px)  {
 
-
-
-.notion-collection-card:nth-of-type(1)::after {
-  display: flex;
-  position: absolute;
-  font-family: monospace;
-  font-size: 1.1em;
-  top: 5.5vh;
-  left: 60vw;
-  content: " ✦ comunidades";
-  color: #5D5F64;
-  z-index: 999;
-  padding: 4px 4px;
-  writing-mode: vertical-rl;
+.notion-collection-card-size-medium:nth-of-type(1)::before {
+color: black;
+left: -25vw;
+top: 1vh;
 }
 
-.notion-collection-card:nth-of-type(2)::after  {
-  display: flex;
-  position: absolute;
-  font-family: monospace;
-  font-size: 1.1em;
-  top: 45vh;
-  left: 60vw;
-  content: " ✧ diseño";
-  color: #5D5F64;
-  z-index: 999;
-  padding: 4px 4px;
-  writing-mode: vertical-rl;
+.notion-gallery-grid-size-medium {
+width: 67%;
+margin-left: 10vw;
 }
 
-.notion-collection-card:nth-of-type(3)::after  {
-  display: flex;
-  position: absolute;
-  font-family: monospace;
-  font-size: 1.1em;
-  top: 75vh;
-  left: 60vw;
-  content: " ✦ deploy 3.0";
-  color: #5D5F64;
-  z-index: 999;
-  padding: 4px 4px;
-  writing-mode: vertical-rl;
-}
+
 
 .styles_refresh__7RVMj {
   left: 172px !important;
