@@ -24,262 +24,64 @@
   writing-mode: vertical-rl;
 }
 
-
-
-
-
-
-
-/* NOTION USER */
-
-.notion-user {
-
-transform: scale(1.9);
-margin-left: 48%;
-margin-top: 25px;
-}
-
-.notion-block-959366e24a904c258493ea5071ab9293 {
-margin-top: -5px;
+.notion-block-899e749abd5e409eb18b3e2d155cabd3 span {
+ color: var(--bg-color);
 
 }
 
-/* OUT HORMIGAS GRANDES Y ENCABEZADOS MOBILES */
 
-.notion-block-0c241c2ab6ad4398b05d337572783267 {
-display: none;
 
-}
 
 /* BLOQUEOS A CLICKS EN IMAGENES 3 y 4 */
 
 .notion-collection-card-size-medium {
-pointer-events: none;
+ pointer-events: none;
 
 }
 
 
 
-.notion-block-29c559f44a9042cf8034c1689a1b62ee, .notion-block-e063c8f03ea14f35ad65d9540362292e, .notion-block-393a4acc2c8f496f9c31b00046f7dd40 {
-margin-top: 5px;
 
+/* ------ SUBPAGINA OUR WORK ------- */
+
+/* CONTAINER GENERAL */
+
+
+
+.notion-block-e1c01e5338484adf9b315a6c06efda84 .notion-asset-wrapper img {
+
+  width: unset;
+  height: unset;
+  max-height: unset;
 }
 
-.notion-block-7831622b64804f2aa1c81e8aa3dd76cc, .notion-block-f2260a9d174d4dd8a0d87380e8b1bebc {
-display: flex;
-margin-top: 15px;
-margin-left: 45px;
 
+
+/* CONTAINER CALLOUT */
+
+.notion-block-69c7a440655f4c5fbedcd482d8e0e4a5 {
+
+  width: unset;
+  height: unset;
+  max-height: unset;
 }
 
-.notion-block-7831622b64804f2aa1c81e8aa3dd76cc:before {
-  display: flex;
-  font-size: 1.2em;
-  font-weight: 300;
+
+
+
+/* ----- CALLOUT GENERAL ------- */ 
+
+.notion-callout {
+
   font-family: monospace;
-  background: rgba(0, 0, 0, 0.7);
-  content: "\ Miguel Galperin ";
-  white-space: pre;  
-  line-height: 1em;
-  visibility: hidden;
-  opacity: 0;
-  min-width: 50px;
-  height: 7%;
-  margin-top: 1px;
-  color: white;
-
-  text-align: center;
-  border-radius: 5px;
-  padding-top: 20px; 
-  padding-bottom: -2px;
-   -webkit-transition: all 0.3s ease-out 0s;
-    transition: all 0.3s ease-out 0s;
-  
-  position: absolute;
-  z-index: 1;
-  left: 0%;
-  top: 95%;
-}
-
-.notion-block-7831622b64804f2aa1c81e8aa3dd76cc:hover:before {
-   opacity: 1;
-  visibility: visible;
-  min-width: 50px;
-  top: 99%
-
-}
-
-.notion-block-f2260a9d174d4dd8a0d87380e8b1bebc:before {
-  display: flex;
-  font-size: 1.2em;
-  font-weight: 300;
-  font-family: monospace;
-  background: rgba(0, 0, 0, 0.7);
-  content: "\ Diseñadore ";
-  white-space: pre;  
-  line-height: 1em;
-  visibility: hidden;
-  opacity: 0;
-  min-width: 50px;
-  height: 7%;
-  margin-top: 1px;
-  color: white;
-
-  text-align: center;
-  border-radius: 5px;
-  padding-top: 20px; 
-  padding-bottom: -2px;
-   -webkit-transition: all 0.3s ease-out 0s;
-    transition: all 0.3s ease-out 0s;
-  
-  position: absolute;
-  z-index: 1;
-  left: 0%;
-  top: 95%;
-}
-
-.notion-block-f2260a9d174d4dd8a0d87380e8b1bebc:hover:before {
-   opacity: 1;
-  visibility: visible;
-  min-width: 50px;
-  top: 99%
-
-}
-
-/* SUB PAGINA EL NINO CANTA */
-
-/* FOOTER */
-
-.notion-block-e1c01e5338484adf9b315a6c06efda84 .styles_footer__1r_c6 {
-
-margin-left: 190px;
-margin-top: -120px
-
-}
-
-
-.notion-block-e1c01e5338484adf9b315a6c06efda84 .styles_copyright__3kWHj {
-
-
-display: none;
-
-}
-
-.notion-block-e1c01e5338484adf9b315a6c06efda84 .styles_refresh__7RVMj {
-
-
-margin-left: -12px;
-
-}
-
-/* TEXTOS OUT */
-
-.notion-block-df43da1c69c443e588d5ac57d0ea7290, .notion-block-e3ec5149c01940dc87ba741189c9a0f9, .notion-block-0fdb3e8f4ddc4c0491491feedfb14c58, .notion-block-8d0e8d3f50cd4dd3b8f9ff8ccee09e90, .notion-block-fd68a1691f5f407a85451a86429b8171 {
-
-
-display: none;
-
-}
-
-/* POSICION TITULO E IMAGEN ECOMMERCE */
-
-
-.notion-block-9bd06f0ecfed431499fe569136f256ef {
-
-
-margin-top: 40px;
-
-}
-
-.notion-block-e146ea9379534abdbdd25be109c76e26 {
-
-
-margin-top: -40px !important;
-
 }
 
 
 
-/* SUB PAGINA ANTWEB */
-
-.notion-block-25ab17025c8a4225acf5ac51673b5c07, .notion-block-dc37481b05ce47edae319b9c16c5b3a6,.notion-block-28a2ff754e224401af05b77bc518b2dd, .notion-block-1c1e15bd64a3435b9190e3cca1bafa06 {
-
-display: none;
-
-}
 
 
-/* POSICION TWITTER EN ANTWEB */
+/* DISPLAY NONE PARA SETTINGS Y DEMAS FUNCIONES --*/
 
-.notion-block-1790b0b7867c4e2cb15df66dba30e9dd .styles_twitter__WwfaA {
-padding: unset;
-}
-
-/* POSICION CONTACTO */
-
-.notion-block-a5a071f0f3f948078b7d283d94231c5e {
-padding: 8px 10px !important;
-}
-
-
-/* PADDING */
-
-
-.notion-block-1790b0b7867c4e2cb15df66dba30e9dd .notion-text {
-
-padding: 2.9px 2px;
-margin-bottom: 1px;
-margin-left: -10px;
-}
-
-
-/* Margen del LOGO */
-
-.notion-block-1049cea860a1453785d2e915cef4b90a  {
-padding-top: 4em;
-}
-
-.notion-block-3a15cf64d6a9427494ea8b64d93bd418 { 
-padding-top: -5em;
-}
-
-/* COLUMNA IZQUIERDA CENTRAR */
-
-.notion-block-f28dcd5db5a14c889f6db1b4c2920ded {
-width: 100%;
-text-align: center;
-}
-.notion-block-1790b0b7867c4e2cb15df66dba30e9dd .styles_refresh__7RVMj {
-display: none;
-
-}
-
-.notion-block-1790b0b7867c4e2cb15df66dba30e9dd .styles_settings__1ed8a {
-display: none;
-
-}
-
-.notion-block-1790b0b7867c4e2cb15df66dba30e9dd .styles_social__235gY {
-display: none;
-
-}
-
-.notion-block-3a15cf64d6a9427494ea8b64d93bd418 {
-z-index: 1;
-
-}
-/* Hormigas */
-
-.notion-block-a05227dc57284e71adad27dd7ebc16dc {
-display: flex;
-position: relative;
-top: -115px;
-left: 230px;
-transform: scale(0.9);
-z-index: 1;
-}
-
-/* SUBPAGINA EL NINO/WORK */
 
 .notion-block-e1c01e5338484adf9b315a6c06efda84 .styles_twitter__WwfaA {
 
@@ -411,24 +213,6 @@ margin-top: 25px;
     margin-top: -5%;
   }
 
-
-
-/* MOBILE ADAPT ANTWEB */
-
-/* CONTACTO */
-
-.notion-block-a5a071f0f3f948078b7d283d94231c5e {
-    color: gray;
-    margin-left: 20% !important;
-    font-family: monospace;
-    font-size: 3em !important;
-    writing-mode: vertical-lr;
-    display: flex;
-    position: relative;
-    top: 20vh;
-    left: 48vw;
-    
-  }
 
 
 
@@ -590,31 +374,12 @@ width: 40%;
 }
 
 
-.notion-block-3e1c6817d4a3481cb16f9024b425aa6b {
-  max-width: 70%;
-}
-
-.notion-block-2d07c1bbd599422c98c23aeeaea984d2 {
-  max-width: 70%;
-}
-
-
-.notion-block-f3e3abaee42543168b56899dfd081691{
-  max-width: 70%;
-}
-
-.notion-block-865d892fabc44db6857bcf037f47e2f0 {
-  width: 100%;
-}
 
 .notion-block-1790b0b7867c4e2cb15df66dba30e9dd .styles_menuToggle__TyYI8 {
   display: none;
 }
 
-/*
-.notion-asset-wrapper iframe {
-}
-*/
+
 
 
 /* ------ LAYOUT IMPORTANTE ---- */
@@ -653,7 +418,7 @@ display: none;
 
 
 .notion-hash-link {
-  pointer-events: none;
+ pointer-events: none;
   display: none;
 }
 
@@ -688,6 +453,7 @@ display: none;
     
     padding: 0.5px 0.5px;
     margin-bottom: 1px;
+   
 }
 
 
@@ -695,10 +461,6 @@ display: none;
   text-align: center;
 }
 
-.notion-asset-wrapper {
-  margin-top: 0;
-  margin-bottom: 0;
-}
 
 .notion-header .nav-header {
   display: none;
@@ -807,11 +569,9 @@ display: none;
   margin-bottom: 0.25em;
 }
 
-.notion-callout {
-  margin: 0.75em 0;
-  line-height: 1.6em;
-  font-family: monospace;
-}
+
+
+
 
 .notion-hr {
   margin: 2em 0;
