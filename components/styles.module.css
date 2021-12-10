@@ -219,7 +219,7 @@ cursor: pointer;
   position: relative;
   bottom: 980px;
   left: 318px;
-  transform: scale(0.8);
+  transform: scale(0.9);
   z-index: 1;
  
   
@@ -267,18 +267,125 @@ cursor: pointer;
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 }
 
-.menuToggle a
+
+
+.menuToggle a:nth-of-type(1)
 {
-  text-decoration: none;
-  color: #232323;
-  
-  transition: color 0.3s ease;
+   text-decoration: none;
+   line-height: 1;
+   position: relative;
+   z-index: 0;
+   display: inline-block;
+   padding: 8px 4px;
+   overflow: hidden;
+   color: #333;
+   vertical-align: bottom;
+   transition: color .3s ease-out;
+
 }
 
-.menuToggle a:hover
-{
-  color: tomato;
+.menuToggle a:nth-of-type(1)::before {
+   content: "";
+   position: absolute;
+   z-index: -1;
+   top: -5px;
+   left: 0;
+   transform: translateY(calc(900% - 2px));
+   width: 100%;
+   height: 100%;
+   background-image: linear-gradient(to bottom, #7d7e7d 0%,#0e0e0e 100%);
+   transition: transform .25s ease-out;
 }
+
+.menuToggle a:nth-of-type(1):hover {
+
+   color: #fff; 
+}
+
+.menuToggle a:nth-of-type(1):hover::before {
+   transform: translateY(0);
+   transition: transform .25s ease-out;
+} 
+
+.menuToggle a:nth-of-type(2)
+{
+   text-decoration: none;
+   line-height: 1;
+   position: relative;
+   z-index: 0;
+   display: inline-block;
+   padding: 8px 4px;
+   overflow: hidden;
+   color: #333;
+   vertical-align: bottom;
+   transition: color .3s ease-out;
+
+}
+
+.menuToggle a:nth-of-type(2)::before {
+   content: "";
+   position: absolute;
+   z-index: -1;
+   top: -5px;
+   left: 0;
+   transform: translateY(calc(900% - 2px));
+   width: 100%;
+   height: 100%;
+   background-image: linear-gradient(to bottom, #7d7e7d 0%,#0e0e0e 100%);
+   transition: transform .25s ease-out;
+}
+
+.menuToggle a:nth-of-type(2):hover {
+
+   color: #fff; 
+}
+
+.menuToggle a:nth-of-type(2):hover::before {
+   transform: translateY(0);
+   transition: transform .25s ease-out;
+}
+
+.menuToggle a:nth-of-type(3)
+{
+   text-decoration: none;
+   line-height: 1;
+   position: relative;
+   z-index: 0;
+   display: inline-block;
+   padding: 8px 4px;
+   overflow: hidden;
+   color: #333;
+   vertical-align: bottom;
+   transition: color .3s ease-out;
+
+}
+
+.menuToggle a:nth-of-type(3)::before {
+   content: "";
+   position: absolute;
+   z-index: -1;
+   top: -5px;
+   left: 0;
+   transform: translateY(calc(900% - 2px));
+   width: 100%;
+   height: 100%;
+   background-image: linear-gradient(to bottom, #7d7e7d 0%,#0e0e0e 100%);
+   transition: transform .25s ease-out;
+}
+
+.menuToggle a:nth-of-type(3):hover {
+
+   color: #fff; 
+}
+
+.menuToggle a:nth-of-type(3):hover::before {
+   transform: translateY(0);
+   transition: transform .25s ease-out;
+}
+
+
+
+
 
 
 
@@ -299,7 +406,7 @@ cursor: pointer;
   top: 0px;
   padding: 2.5px;
   left: 0px;
-  background: #ADAFB9 !important;
+  background: #747B7F !important;
   border-radius: 3px;
   
   z-index: 1;
@@ -354,8 +461,9 @@ cursor: pointer;
 
 .menu li
 {
-  padding: 10px 0;
-  font-size: 22px;
+  padding: 20px 0;
+  font-size: 24px;
+  margin-top: -10px;
 }
 
 /*

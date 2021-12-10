@@ -88,8 +88,9 @@ export const Footer: React.FC<{
               <span></span>
             <ul className={styles.menu}>
              
-             <a href="https://mireactapp.vercel.app/about"><li>Work</li></a>
-             <a href="mailto:miguel.galperin@gmail.com"><li>Contact</li></a>
+             <a href="#"><li> Tu color </li></a>
+             <a href="#"><li>Web 3.0</li></a>
+             <a href="mailto:miguel.galperin@gmail.com"><li>Contacto</li></a>
              
             </ul>
          </div>
