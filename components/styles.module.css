@@ -248,7 +248,7 @@ cursor: pointer;
 .menu {
    position: absolute;
   top: 65%;
-  left: 0%;
+  left: -80%;
   
   width: 270px;
   margin: -100px 0 0 -50px;
@@ -462,8 +462,9 @@ cursor: pointer;
 .menu li
 {
   padding: 20px 0;
-  font-size: 24px;
+  font-size: 20px;
   margin-top: -10px;
+  font-family: monospace;
 }
 
 /*

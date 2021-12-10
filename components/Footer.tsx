@@ -88,9 +88,9 @@ export const Footer: React.FC<{
               <span></span>
             <ul className={styles.menu}>
              
-             <a href="#"><li> Tu color </li></a>
-             <a href="#"><li>Web 3.0</li></a>
-             <a href="mailto:miguel.galperin@gmail.com"><li>Contacto</li></a>
+             <a href="#"><li> tu color 🌈 </li></a>
+             <a href="#"><li>web 3.0 ❓</li></a>
+             <a href="mailto:miguel.galperin@gmail.com"><li>contacto 📪</li></a>
              
             </ul>
          </div>

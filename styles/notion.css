@@ -10,6 +10,24 @@
 
 /* ROOT */
 
+@media not all and (min-resolution:.001dpcm) { 
+     @supports (-webkit-appearance:none) {
+
+    .notion-collection-card-size-medium:nth-of-type(1)::after {
+  display: flex;
+  position: absolute;
+  font-family: monospace;
+  font-size: 1.1em;
+  top: 0;
+  right: -80px;
+  content: " ✦ comunidades \a \a \a ✧ diseño \a ✦ deploy 3.0 ";
+  color: #5D5F64;
+  z-index: 999;
+  padding: 20px;
+  writing-mode: vertical-rl;
+}
+     }
+}
 .notion-collection-card-size-medium:nth-of-type(1)::after {
   display: flex;
   position: absolute;
@@ -22,7 +40,7 @@
   z-index: 999;
   padding: 20px;
   writing-mode: vertical-rl;
-margin-left: -30px;
+
 }
 
 .notion-block-899e749abd5e409eb18b3e2d155cabd3 span {
@@ -37,7 +55,7 @@ margin-left: -30px;
 
 .notion-collection-card-size-medium {
  pointer-events: none;
-width: 710px
+max-width: 710px
 
 }
 
