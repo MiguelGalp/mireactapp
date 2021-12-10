@@ -10,18 +10,19 @@
 
 /* ROOT */
 
-.notion-collection-card-size-medium:nth-of-type(1)::before {
+.notion-collection-card-size-medium:nth-of-type(1)::after {
   display: flex;
   position: absolute;
   font-family: monospace;
   font-size: 1.1em;
   top: 0;
-  left: -15%;
+  right: -50px;
   content: " ✦ comunidades \a \a \a ✧ diseño \a ✦ deploy 3.0 ";
   color: #5D5F64;
   z-index: 999;
   padding: 20px;
   writing-mode: vertical-rl;
+margin-left: -30px;
 }
 
 .notion-block-899e749abd5e409eb18b3e2d155cabd3 span {
@@ -36,6 +37,7 @@
 
 .notion-collection-card-size-medium {
  pointer-events: none;
+width: 710px
 
 }
 
