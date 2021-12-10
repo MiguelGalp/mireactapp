@@ -95,6 +95,8 @@ export const Footer: React.FC<{
             </ul>
          </div>
        </nav>
+     <div className={styles.titulo}><p>estudio web / el color es tuyo ✦ diseño ✧ herramientas ✦ comunidades</p></div>
+    
     </footer>
   )
 }

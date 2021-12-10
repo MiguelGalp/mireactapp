@@ -11,6 +11,7 @@
 /* ROOT */
 
 
+/*
 
 .notion-collection-card-size-medium:nth-of-type(1)::before {
   display: flex;
@@ -18,7 +19,7 @@
   font-family: monospace;
   font-size: 1.1em;
   top: 0;
-  right: -50px;
+  right: -45px;
   content: " ✦ comunidades \a \a \a ✧ diseño \a ✦ deploy 3.0 ";
   color: #5D5F64;
   z-index: 999;
@@ -26,6 +27,8 @@
   writing-mode: vertical-rl;
 
 }
+
+*/
 
 .notion-block-899e749abd5e409eb18b3e2d155cabd3 span {
  color: var(--bg-color);
@@ -39,9 +42,30 @@
 
 .notion-collection-card-size-medium {
  pointer-events: none;
- max-width: 710px
-
 }
+
+.notion-gallery-grid-size-medium {
+ pointer-events: none;
+ max-width: 680px;
+ min-width: 680px;
+ min-height: 760px;
+ max-height: 760px;
+ position: absolute;
+  top: -60vh;
+  left: 0%;
+  transform: translate(-50%, -50%);
+ 
+ 
+ border-top: none;
+ grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+ grid-gap: 0vmin;
+ gap: 3vmin;
+ transform: scale(0.6);
+ margin-left: -0.5vw;
+ 
+}
+
+
 
 
 /* DISPLAY NONE PARA SETTINGS Y DEMAS FUNCIONES --*/
@@ -79,6 +103,7 @@ left: -105px;
 top: 1vh;
 display: none;
 }
+
 
 .notion-gallery-grid-size-medium {
 width: 80%;
@@ -147,42 +172,6 @@ notion-block-4140e0880aca4cd89b79211bc8a4c269 {
 }
 
 
-.notion-user {
-
-transform: scale(2.2);
-margin-left: 48%;
-margin-top: 25px;
-}
-
-/* MOBILE ADAPT EL NINO/WORK */
-
-.notion-block-69c7a440655f4c5fbedcd482d8e0e4a5 {
-    margin-left: -35%;
-  }
-
-.notion-block-e146ea9379534abdbdd25be109c76e26 {
-    margin-left: -35%;
-    margin-top: unset;
-    
-  }
-
-.notion-block-8b0ec4c829cb4805a34e912b2ad24f9c {
-    margin-left: -35%;
-  }
-
-.notion-block-9bd06f0ecfed431499fe569136f256ef {
-    margin-top: -5%;
-  }
-
-
-
-
-/* CALLOUTS */
-.notion-block-1790b0b7867c4e2cb15df66dba30e9dd .notion-block-f28dcd5db5a14c889f6db1b4c2920ded {
-    max-width: 70%;
-    margin-top: -20vh
-   
-  }
 
 .notion-block-1790b0b7867c4e2cb15df66dba30e9dd .notion-block-8f1b37b082f34601863e963031a885cd{
     display: none;
@@ -443,16 +432,7 @@ display: none;
   display: none;
 }
 
-.notion-gallery-grid-size-medium {
-  
-  display: flex;
-  border-top: none;
-  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-  grid-gap: 0vmin;
-  gap: 3vmin;
-  /* margin-top: 50px; */
-  
-}
+
 
 .notion-gallery-grid {
   display: block;
