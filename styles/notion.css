@@ -10,25 +10,9 @@
 
 /* ROOT */
 
-@media not all and (min-resolution:.001dpcm) { 
-     @supports (-webkit-appearance:none) {
 
-    .notion-collection-card-size-medium:nth-of-type(1)::after {
-  display: flex;
-  position: absolute;
-  font-family: monospace;
-  font-size: 1.1em;
-  top: 0;
-  right: -80px;
-  content: " ✦ comunidades \a \a \a ✧ diseño \a ✦ deploy 3.0 ";
-  color: #5D5F64;
-  z-index: 999;
-  padding: 20px;
-  writing-mode: vertical-rl;
-}
-     }
-}
-.notion-collection-card-size-medium:nth-of-type(1)::after {
+
+.notion-collection-card-size-medium:nth-of-type(1)::before {
   display: flex;
   position: absolute;
   font-family: monospace;
@@ -51,53 +35,13 @@
 
 
 
-/* BLOQUEOS A CLICKS EN IMAGENES 3 y 4 */
+/* MAX-WIDTH BLOQUEOS A CLICKS EN IMAGENES 3 y 4 */
 
 .notion-collection-card-size-medium {
  pointer-events: none;
-max-width: 710px
+ max-width: 710px
 
 }
-
-
-
-
-/* ------ SUBPAGINA OUR WORK ------- */
-
-/* CONTAINER GENERAL */
-
-
-
-.notion-block-e1c01e5338484adf9b315a6c06efda84 .notion-asset-wrapper img {
-
-  width: unset;
-  height: unset;
-  max-height: unset;
-}
-
-
-
-/* CONTAINER CALLOUT */
-
-.notion-block-69c7a440655f4c5fbedcd482d8e0e4a5 {
-
-  width: unset;
-  height: unset;
-  max-height: unset;
-}
-
-
-
-
-/* ----- CALLOUT GENERAL ------- */ 
-
-.notion-callout {
-
-  font-family: monospace;
-}
-
-
-
 
 
 /* DISPLAY NONE PARA SETTINGS Y DEMAS FUNCIONES --*/
@@ -123,30 +67,26 @@ display: none;
 
 
 
-/* MOBILE ADAPT DE SUB-PAGINA */
+/* MOBILE ADAPT */
 
-/* IPAD SUB PAGINA EL NINO*WORk*/
+
 
 @media only screen and (max-width: 769px) {
 
 .notion-collection-card-size-medium:nth-of-type(1)::before {
 color: black;
-left: -15vw;
+left: -105px;
 top: 1vh;
-
+display: none;
 }
 
 .notion-gallery-grid-size-medium {
 width: 80%;
-margin-left: 15vw;
+margin-left: 10vw;
 }
 
 
 
-.notion-block-e1c01e5338484adf9b315a6c06efda84 .notion-callout {
-width: 80%;
-
-}
 
 .notion-block-4ae70cf5564a41618757f9c52c6b5285{
 margin-left: -150px;
@@ -180,8 +120,9 @@ margin-top: 60px !important;
 
 .notion-collection-card-size-medium:nth-of-type(1)::before {
 color: black;
-left: -25vw;
+left: -35px;
 top: 1vh;
+display: none;
 }
 
 .notion-gallery-grid-size-medium {

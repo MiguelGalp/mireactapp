@@ -516,13 +516,13 @@ cursor: pointer;
 
 @media only screen and (min-width: 414px) and (max-width: 768px) {
 .menuToggle {
-    left: 42vw;
+    left: 30vw;
     
   }
 
 .menu {
 
-  left: -40px;
+  left: -70px;
 }
 
 .menuToggle span
@@ -531,12 +531,12 @@ background: #2E3437;
 }
 
 .refresh {
-    left: 41.7vw !important;
+    left: 35.7vw !important;
     
   }
 
 .social, .settings {
-    left: 37.5vw;
+    left: 31.5vw;
     
   }
 
