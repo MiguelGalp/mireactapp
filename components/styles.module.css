@@ -9,7 +9,7 @@ font-family: monospace;
 font-size: 1.1em;
 color: var(--fg-color);
 position: fixed;
-  top: 490px;
+  top: 525px;
   left: 50%;
   transform: translate(-50%, -50%);
 white-space: nowrap;
@@ -85,7 +85,7 @@ margin-bottom: 1vh;
    left:50%;
    top:50%;
    margin-left:162px;
-   margin-top: 40px;
+   margin-top: 60px;
    border-radius: 50%; 
    user-select: none;
    background: var(--bg-color);
@@ -242,7 +242,7 @@ cursor: pointer;
    left:50%;
    top:50%;
    margin-left:163px;
-   margin-top: 60px;
+   margin-top: 80px;
    transform: scale(0.8);
  
 }
