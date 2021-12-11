@@ -19,6 +19,7 @@ html {
 body {
   overflow-x: hidden;
   overflow-y: visible;
+  transition: background 5s;
   
 }
 
@@ -26,6 +27,12 @@ body {
     animation: fadeInAnimation ease 5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+    
+}
+
+body {
+ transition: background 5s !important;
+  
 }
   
 @keyframes fadeInAnimation {

@@ -11,6 +11,8 @@
 /* ROOT */
 
 
+
+
 @media screen and (-webkit-min-device-pixel-ratio: 0) { _::-webkit-full-page-media, .styles_settings__1ed8a {  } }
 
 
@@ -59,7 +61,7 @@
  min-height: 760px;
  max-height: 760px;
  position: absolute;
-  top: -70vh;
+  top: -67vh;
   left: 0%;
   transform: translate(-50%, -50%);
  
