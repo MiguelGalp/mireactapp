@@ -9,8 +9,8 @@ font-family: monospace;
 font-size: 1.2em;
 color: black;
 position: fixed;
-  top: 235px;
-  left: 28%;
+  top: 890px;
+  left: 24%;
   transform: translate(-50%, -50%);
 white-space: nowrap;
 display: flex;
@@ -240,7 +240,7 @@ cursor: pointer;
 .footer nav {
    position:relative;
    left:45vw;
-   top:0;
+   top:1vh;
    transform: scale(1.6);
 }
 
