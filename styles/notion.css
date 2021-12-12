@@ -375,8 +375,8 @@ display: none;
 
 
 .notion-page-scroller {
-  max-height: 940px;
-  overflow: hidden !important;
+  max-height: 1200px;
+  overflow: visible !important;
 }
 
 
