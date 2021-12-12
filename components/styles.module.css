@@ -6,15 +6,16 @@
 
 .titulo {
 font-family: monospace;
-font-size: 1.1em;
-color: var(--fg-color);
+font-size: 1.2em;
+color: black;
 position: fixed;
-  top: 525px;
-  left: 50%;
+  top: 235px;
+  left: 28%;
   transform: translate(-50%, -50%);
 white-space: nowrap;
 display: flex;
 margin-bottom: 1vh;
+padding: 5px;
 }
 
 
@@ -60,7 +61,7 @@ margin-bottom: 1vh;
 
 .footer {
     display: flex;
-    position: fixed;
+    position: absolute;
   }
 
 
@@ -81,15 +82,14 @@ margin-bottom: 1vh;
 }
 
 .settings {
-   position:absolute;
-   left:50%;
-   top:50%;
-   margin-left:162px;
-   margin-top: 60px;
-   border-radius: 50%; 
+   position:relative;
+   left:45vw;
+   top:4vh;
+   border-radius: 75%; 
    user-select: none;
    background: var(--bg-color);
-   transform: scale(0.6);
+   transform: scale(0.9);
+   display: none;
 }
 
 
@@ -134,7 +134,7 @@ margin-bottom: 1vh;
 
 .settings svg { 
 
-  transform: scale(0.8); 
+  transform: scale(0.6); 
  
 }
 
@@ -238,13 +238,10 @@ cursor: pointer;
 /* PASAR A MOBILE */
 
 .footer nav {
-   position:absolute;
-   left:50%;
-   top:50%;
-   margin-left:163px;
-   margin-top: 80px;
-   transform: scale(0.8);
- 
+   position:relative;
+   left:45vw;
+   top:0;
+   transform: scale(1.6);
 }
 
 
@@ -282,7 +279,7 @@ cursor: pointer;
 .menu {
    position: absolute;
   top: 80%;
-  left: -20%;
+  left: -270%;
   
   width: 350px;
   margin: -100px 0 0 -50px;
@@ -440,7 +437,7 @@ cursor: pointer;
   top: 0px;
   padding: 2.6px;
   left: 0px;
-  background: #262626 !important;
+  background: var(--bg-color) !important;
   border-radius: 3px;
   
   z-index: 1;
