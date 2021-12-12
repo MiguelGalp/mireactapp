@@ -6,7 +6,7 @@
 
 .titulo {
 font-family: monospace;
-font-size: 1.2em;
+font-size: 1.2rem;
 color: black;
 position: fixed;
   top: 890px;
@@ -240,7 +240,7 @@ cursor: pointer;
 .footer nav {
    position:relative;
    left:45vw;
-   top:1vh;
+   top:2vh;
    transform: scale(1.6);
 }
 
