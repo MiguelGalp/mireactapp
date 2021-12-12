@@ -18,9 +18,12 @@ html {
 
 body {
   overflow-x: hidden;
-  overflow-y: hidden;
+  overflow-y: visible;
   transition: background 5s;
-  
+}
+
+body::-webkit-scrollbar {
+    display: none;
 }
 
 body {

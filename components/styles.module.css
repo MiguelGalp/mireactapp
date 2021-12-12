@@ -9,13 +9,54 @@ font-family: monospace;
 font-size: 1.2rem;
 color: black;
 position: fixed;
-  top: 890px;
+  top: 370px;
   left: 24%;
   transform: translate(-50%, -50%);
 white-space: nowrap;
 display: flex;
 margin-bottom: 1vh;
-padding: 5px;
+margin-left: 0.3vw;
+padding: 13px 23px;
+}
+
+/* BORDER */
+
+.titulo:before,
+.titulo:after,
+.titulo>:first-child:before,
+.titulo>:first-child:after {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  border-color: black;
+  /* or whatever colour */
+  border-style: solid;
+  /* or whatever style */
+  content: ' ';
+}
+
+.titulo:before {
+  top: 0;
+  left: 0;
+  border-width: 3px 0 0 3px
+}
+
+.titulo:after {
+  top: 0;
+  right: 0;
+  border-width: 3px 3px 0 0
+}
+
+.titulo>:first-child:before {
+  bottom: 0;
+  right: 0;
+  border-width: 0 3px 3px 0
+}
+
+.titulo>:first-child:after {
+  bottom: 0;
+  left: 0;
+  border-width: 0 0 3px 3px
 }
 
 
