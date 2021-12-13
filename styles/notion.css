@@ -77,23 +77,6 @@
 
 
 
-/* DISPLAY NONE PARA SETTINGS Y DEMAS FUNCIONES --*/
-
-
-.notion-block-e1c01e5338484adf9b315a6c06efda84 .styles_twitter__WwfaA {
-
-display: none;
-
-
-}
-
-.notion-block-e1c01e5338484adf9b315a6c06efda84 .styles_settings__1ed8a{
-display: none;
-}
-
-.notion-block-e1c01e5338484adf9b315a6c06efda84 .styles_refresh__7RVMj{
-display: none;
-}
 
 
 
@@ -161,8 +144,14 @@ display: none;
 
 .notion-gallery-grid-size-medium {
 width: 67%;
-margin-left: 10vw;
+
 }
+
+.notion-gallery-grid {
+margin-top: -5vh;
+
+}
+
 
 
 
@@ -182,9 +171,7 @@ notion-block-4140e0880aca4cd89b79211bc8a4c269 {
 
 
 
-.notion-block-1790b0b7867c4e2cb15df66dba30e9dd .notion-block-8f1b37b082f34601863e963031a885cd{
-    display: none;
-  }
+
 
 .notion-block-1790b0b7867c4e2cb15df66dba30e9dd .notion-block-1049cea860a1453785d2e915cef4b90a {
     transform: scale(0.8);
@@ -209,84 +196,9 @@ display: none;
 
 }
 
-.notion-block-1790b0b7867c4e2cb15df66dba30e9dd  .notion-block-5220ec443bd146a1ba1e40ef2a8b11f4 {
-
-display: none;
-
-}
-
-/* TEXTOS */
-
-.notion-block-1790b0b7867c4e2cb15df66dba30e9dd  .notion-block-25ab17025c8a4225acf5ac51673b5c07, .notion-block-dc37481b05ce47edae319b9c16c5b3a6,.notion-block-28a2ff754e224401af05b77bc518b2dd, .notion-block-1c1e15bd64a3435b9190e3cca1bafa06 {
-
-display: flex;
-font-family: monospace;
-font-size:1.1em;
-margin-left: -6px;
-}
-
-.notion-block-1790b0b7867c4e2cb15df66dba30e9dd  .notion-block-25ab17025c8a4225acf5ac51673b5c07 {
-
-position: absolute;
-top:3%;
-left:70vw;
-writing-mode: vertical-lr;
-color: black;
-font-size:0.9em;
-margin-left: -6px;
-}
-
-.notion-block-1790b0b7867c4e2cb15df66dba30e9dd  .notion-block-dc37481b05ce47edae319b9c16c5b3a6 {
-
-position: absolute;
-top:19%;
-left:70vw;
-color: black;
-writing-mode: vertical-lr;
-font-size:0.9em;
-margin-left: -6px;
-}
 
 
 
-.notion-block-1790b0b7867c4e2cb15df66dba30e9dd  .notion-block-28a2ff754e224401af05b77bc518b2dd {
-
-position: absolute;
-top:38%;
-left:70vw;
-color: black;
-writing-mode: vertical-lr;
-font-size:0.9em;
-margin-left: -6px;
-}
-/*
-.notion-block-1790b0b7867c4e2cb15df66dba30e9dd  .notion-block-1c1e15bd64a3435b9190e3cca1bafa06 {
-
-position: absolute;
-top:11vh;
-left:70vw;
-color: black;
-
-}
-/*
-.notion-block-1049cea860a1453785d2e915cef4b90a, .notion-block-3a15cf64d6a9427494ea8b64d93bd418 {
-
-display: none;
-
-}
-
-/* HORMIGAS EN ANTWEB MOBILE */
-
-.notion-block-0c241c2ab6ad4398b05d337572783267 {
-
-display: flex;
-position: relative;
-top: -800px;
-left:140px;
-transform: scale(0.3);
-z-index: 2;
-
-}
 
 
 
@@ -333,12 +245,12 @@ width: 40%;
 }
 
 
-
+/*
 .notion-block-1790b0b7867c4e2cb15df66dba30e9dd .styles_menuToggle__TyYI8 {
   display: none;
 }
 
-
+*/
 
 
 /* ------ LAYOUT IMPORTANTE ---- */
@@ -733,14 +645,15 @@ display: none;
 }
 
 /* IPHONE iPad and SMALLER */
+/*
 
 @media only screen and (max-width: 419px)  {
   .notion-gallery-grid-size-medium {
     max-width: 80%;
-    margin-top: -80px;
+    margin-top: -100px;
   }
 }
-
+*/
 
 
 
