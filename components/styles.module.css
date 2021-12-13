@@ -329,7 +329,7 @@ cursor: pointer;
 .menu {
    position: absolute;
   top: 80%;
-  left: -270%;
+  left: -320%;
   
   width: 350px;
   margin: -100px 0 0 -50px;
@@ -671,6 +671,12 @@ position: fixed;
 
 
 @media only screen and (max-width: 419px)  {
+
+.menu {
+  
+  left: -170px !important;
+}
+
 .titulo {
   
   display: none;
@@ -895,15 +901,18 @@ position: fixed;
 
 
 @media only screen and (max-width: 320px)  {
-.menuToggle {
-    left: 120%;
-    
-  }
+
 
 .menu {
 
-  left: -40px;
+  left: -140px;
 }
+
+.menu li {
+
+  font-size: 24px;
+}
+
 
 .menuToggle span
 {
