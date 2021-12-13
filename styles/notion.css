@@ -71,7 +71,7 @@
  transform: scale(0.5) !important;
  margin: 0;
  transform: translateX(50%) !important;
- 
+ display: none !important;
 }
 
 

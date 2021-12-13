@@ -17,14 +17,16 @@
 font-family: monospace;
 font-size: 1.2rem;
 color: black;
-position: fixed;
-  top: 320px;
-  left: 24%;
-  transform: translate(-50%, -50%);
+ position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 10%);
 white-space: nowrap;
 display: flex;
+/*
 margin-bottom: 1vh;
 margin-left: 0.3vw;
+*/
 padding: 13px 23px;
 }
 
