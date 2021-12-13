@@ -195,10 +195,14 @@ display: none;
 display: none;
 
 }
+}
 
+@media only screen and (max-height: 414px)  {
 
+.notion-gallery-grid-size-medium {
+margin-top: -16vh !important;
 
-
+}
 
 
 

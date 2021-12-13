@@ -777,24 +777,121 @@ background: #2E3437;
 }
 
 
-/*
-@media only screen and (max-height: 419px)  {
-  .menuToggle {
-    transform: scale(0.8);
-  }
-
-.menu {
-
-  left: -40px;
+/* HORIZONTAL */
+@media only screen and (max-height: 414px)  {
+.tituloMobile2 {
+display: none;
 }
 
-.menuToggle input {
-
-left: 60%;
+.tituloMobile {
+display: block;
+position: fixed;
+  top: 200px;
+  left: 27vw;
+  transform: translate(-50%, -50%);
+  max-width: 40%;
+  max-height: 90%;
+  padding: 12px 6px;
 
 }
+
+
+.tituloMobile:before,
+.tituloMobile:after,
+.tituloMobile>:first-child:before,
+.tituloMobile>:first-child:after {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-color: black;
+  /* or whatever colour */
+  border-style: solid;
+  /* or whatever style */
+  content: ' ';
 }
-*/
+
+.tituloMobile:before {
+  top: 0;
+  left: 0;
+  border-width: 3px 0 0 3px
+}
+
+.tituloMobile:after {
+  top: 0;
+  right: 0;
+  border-width: 3px 3px 0 0
+}
+
+.tituloMobile>:first-child:before {
+  bottom: 0;
+  right: 0;
+  border-width: 0 3px 3px 0
+}
+
+.tituloMobile>:first-child:after {
+  bottom: 0;
+  left: 0;
+  border-width: 0 0 3px 3px
+}
+}
+
+@media only screen and (max-height: 375px)  {
+.tituloMobile2 {
+display: none;
+}
+
+.tituloMobile {
+display: block;
+position: fixed;
+  top: 175px;
+  left: 27vw;
+  transform: translate(-50%, -50%);
+  max-width: 40%;
+  max-height: 90%;
+  padding: 12px 6px;
+
+}
+
+
+.tituloMobile:before,
+.tituloMobile:after,
+.tituloMobile>:first-child:before,
+.tituloMobile>:first-child:after {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-color: black;
+  /* or whatever colour */
+  border-style: solid;
+  /* or whatever style */
+  content: ' ';
+}
+
+.tituloMobile:before {
+  top: 0;
+  left: 0;
+  border-width: 3px 0 0 3px
+}
+
+.tituloMobile:after {
+  top: 0;
+  right: 0;
+  border-width: 3px 3px 0 0
+}
+
+.tituloMobile>:first-child:before {
+  bottom: 0;
+  right: 0;
+  border-width: 0 3px 3px 0
+}
+
+.tituloMobile>:first-child:after {
+  bottom: 0;
+  left: 0;
+  border-width: 0 0 3px 3px
+}
+}
+
 
 
 @media only screen and (max-width: 320px)  {
