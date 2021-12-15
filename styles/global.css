@@ -17,8 +17,8 @@ html {
 }
 
 body {
-  overflow-x: hidden;
-  overflow-y: visible;
+  overflow-x: visible;
+  overflow-y: hidden;
   transition: background 5s;
 }
 

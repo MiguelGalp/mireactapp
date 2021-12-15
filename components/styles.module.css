@@ -4,6 +4,53 @@
   }
 }
 
+
+
+.titulo {
+  font-family: monospace;
+  font-size: 1.2rem;
+  color: black;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  word-wrap: break-word;
+  width: 425px;
+  text-align: justify;
+  padding: 13px 23px 13px 23px;
+  display: flex;
+}
+
+.estrellas {
+
+  color: black;
+  animation: mymove 30s;
+  animation-delay: 10s;
+}
+
+.recuadro {
+ 
+  color: white;
+  background: black;
+  padding: 3px 2px;
+}
+
+
+@keyframes mymove {
+  0%   {color: black}
+  20%  {color: yellow}
+  30%  {color: yellow}
+  50%  {color: pink}
+  75%  {color: grey}
+  100% {color: black}
+}
+.espacio {
+ 
+  color: white;
+  margin-left: -12px !important;
+}
+
+
 .parrafo1 {
   color: #1D1D1D;
 }
@@ -14,6 +61,8 @@
 
 .parrafo3 {
   color: #1D1D1D ;
+text-align: justify;
+  text-justify: inter-word;
 }
 
 
@@ -26,22 +75,6 @@
   display: none;
 }
 
-.titulo {
-font-family: monospace;
-font-size: 1.2rem;
-color: black;
- position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-white-space: nowrap;
-display: flex;
-/*
-margin-bottom: 1vh;
-margin-left: 0.3vw;
-*/
-padding: 13px 23px 13px 35px;
-}
 
 /* BORDER */
 
@@ -608,344 +641,70 @@ cursor: pointer;
   }
 }
 
-/* Proporcionar el Burguer */
-/* Ver que la transform afecta la posición del menu */
-
-
-@media only screen and (min-width: 414px) and (max-width: 768px) {
-.titulo {
-  
-  display: none;
-}
-
-.tituloMobile {
-  display: none;
-}
-
-.tituloMobile2  {
-display: block;
-position: fixed;
-  top: 400px;
-  left: 25vw;
-  transform: translate(-50%, -50%);
-  max-width: 40%;
-  max-height: 90%;
-  padding: 16px 10px;
-}
-
-.tituloMobile2:before,
-.tituloMobile2:after,
-.tituloMobile2>:first-child:before,
-.tituloMobile2>:first-child:after {
-  position: absolute;
-  width: 10px;
-  height: 10px;
-  border-color: black;
-  /* or whatever colour */
-  border-style: solid;
-  /* or whatever style */
-  content: ' ';
-}
-
-.tituloMobile2:before {
-  top: 0;
-  left: 0;
-  border-width: 3px 0 0 3px
-}
-
-.tituloMobile2:after {
-  top: 0;
-  right: 0;
-  border-width: 3px 3px 0 0
-}
-
-.tituloMobile2>:first-child:before {
-  bottom: 0;
-  right: 0;
-  border-width: 0 3px 3px 0
-}
-
-.tituloMobile2>:first-child:after {
-  bottom: 0;
-  left: 0;
-  border-width: 0 0 3px 3px
-}
 
 
 
-}
-
-
-
-
-
-
-
-
-
-
-
-@media only screen and (max-width: 419px)  {
-
-.menu {
-  
-  left: -170px !important;
-}
+@media only screen and (max-width: 600px) {
 
 .titulo {
-  
-  display: none;
+width: 97%;
+font-size: 1.6rem;
+white-space: pre-wrap;
+margin-top: 48vh;
 }
 
-.tituloMobile2 {
-  
-  display: none;
-}
-
-.tituloMobile  {
-display: block;
-position: fixed;
-  top: 300px;
-  left: 27vw;
-  transform: translate(-50%, -50%);
-  max-width: 40%;
-  max-height: 90%;
-  padding: 12px 6px;
-}
-
-.tituloMobile:before,
-.tituloMobile:after,
-.tituloMobile>:first-child:before,
-.tituloMobile>:first-child:after {
-  position: absolute;
-  width: 10px;
-  height: 10px;
-  border-color: black;
-  /* or whatever colour */
-  border-style: solid;
-  /* or whatever style */
-  content: ' ';
-}
-
-.tituloMobile:before {
-  top: 0;
-  left: 0;
-  border-width: 3px 0 0 3px
-}
-
-.tituloMobile:after {
-  top: 0;
-  right: 0;
-  border-width: 3px 3px 0 0
-}
-
-.tituloMobile>:first-child:before {
-  bottom: 0;
-  right: 0;
-  border-width: 0 3px 3px 0
-}
-
-.tituloMobile>:first-child:after {
-  bottom: 0;
-  left: 0;
-  border-width: 0 0 3px 3px
-}
-
-.footer nav {
-  
-position: fixed;
-top: 2vh;
-left: 10vw;
-  
-}
-
+.titulo:before, .titulo:after {
+border: unset;
 
 }
-
-
-@media only screen and (max-width: 376px)  {
-.menuToggle {
-    left: 47vw !important;
-    
-  }
-
-.menu {
-
-  left: -40px;
 }
 
-.menuToggle span
-{
-background: #2E3437;
+@media only screen and (max-width: 376px)  {}
+
+@media only screen and (max-width: 320px)  {
+
+.titulo {
+width: 97%;
+font-size: 1.6rem;
+white-space: pre-wrap;
+margin-top: 90vh;
 }
 
-.refresh {
-    left: 46vw !important;
-    
-  }
+.titulo:before, .titulo:after {
+border: unset;
 
-.social, .settings {
-    left: 38vw !important;
-    
-  }
-
-.copyright {
-    color: #2E3437;
-    
-  }
-
+}
 
 }
 
 
 /* HORIZONTAL */
 @media only screen and (max-height: 414px)  {
-.tituloMobile2 {
-display: none;
+
+.titulo {
+width: 97%;
+font-size: 1.6rem;
+white-space: pre-wrap;
+margin-top: 40vh;
 }
 
-.tituloMobile {
-display: block;
-position: fixed;
-  top: 200px;
-  left: 27vw;
-  transform: translate(-50%, -50%);
-  max-width: 40%;
-  max-height: 90%;
-  padding: 12px 6px;
+.titulo:before, .titulo:after {
+border: unset;
 
 }
 
 
-.tituloMobile:before,
-.tituloMobile:after,
-.tituloMobile>:first-child:before,
-.tituloMobile>:first-child:after {
-  position: absolute;
-  width: 10px;
-  height: 10px;
-  border-color: black;
-  /* or whatever colour */
-  border-style: solid;
-  /* or whatever style */
-  content: ' ';
-}
 
-.tituloMobile:before {
-  top: 0;
-  left: 0;
-  border-width: 3px 0 0 3px
-}
-
-.tituloMobile:after {
-  top: 0;
-  right: 0;
-  border-width: 3px 3px 0 0
-}
-
-.tituloMobile>:first-child:before {
-  bottom: 0;
-  right: 0;
-  border-width: 0 3px 3px 0
-}
-
-.tituloMobile>:first-child:after {
-  bottom: 0;
-  left: 0;
-  border-width: 0 0 3px 3px
-}
-}
-
-@media only screen and (max-height: 375px)  {
-.tituloMobile2 {
-display: none;
-}
-
-.tituloMobile {
-display: block;
-position: fixed;
-  top: 175px;
-  left: 27vw;
-  transform: translate(-50%, -50%);
-  max-width: 40%;
-  max-height: 90%;
-  padding: 12px 6px;
 
 }
 
-
-.tituloMobile:before,
-.tituloMobile:after,
-.tituloMobile>:first-child:before,
-.tituloMobile>:first-child:after {
-  position: absolute;
-  width: 10px;
-  height: 10px;
-  border-color: black;
-  /* or whatever colour */
-  border-style: solid;
-  /* or whatever style */
-  content: ' ';
-}
-
-.tituloMobile:before {
-  top: 0;
-  left: 0;
-  border-width: 3px 0 0 3px
-}
-
-.tituloMobile:after {
-  top: 0;
-  right: 0;
-  border-width: 3px 3px 0 0
-}
-
-.tituloMobile>:first-child:before {
-  bottom: 0;
-  right: 0;
-  border-width: 0 3px 3px 0
-}
-
-.tituloMobile>:first-child:after {
-  bottom: 0;
-  left: 0;
-  border-width: 0 0 3px 3px
-}
-}
+@media only screen and (max-height: 375px)  {}
 
 
 
-@media only screen and (max-width: 320px)  {
+@media only screen and (max-width: 320px)  {}
 
 
-.menu {
-
-  left: -140px;
-}
-
-.menu li {
-
-  font-size: 24px;
-}
-
-
-.menuToggle span
-{
-background: var(--bg-color);
-}
-
-.refresh {
-    left: 150px;
-    color: black;
-  }
-
-.social, .settings {
-    left: 100%;
-    
-  }
-}
-
-/* STYLING OF SUB PAGE ANTWEB */
 
 
 

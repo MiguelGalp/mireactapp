@@ -85,7 +85,7 @@
 
 /* MOBILE ADAPT */
 
-
+/*
 
 @media only screen and (max-width: 769px) {
 
@@ -133,6 +133,10 @@ margin-top: 60px !important;
 
 
 }
+
+*/
+
+/*
 @media only screen and (max-width: 419px)  {
 
 .notion-collection-card-size-medium:nth-of-type(1)::before {
@@ -197,16 +201,18 @@ display: none;
 }
 }
 
+*/
+
+/*
+
 @media only screen and (max-height: 414px)  {
 
 .notion-gallery-grid-size-medium {
 margin-top: -16vh !important;
 
 }
-
-
-
 }
+*/
 
 /* FIN MOBILE ADAPT */ 
 /* Desetear calculo de ancho para columna */
