@@ -95,7 +95,7 @@ export const Footer: React.FC<{
             </ul>
          </div>
        </nav>
-     <div className={styles.titulo}><p><span className={styles.recuadro}>un jardín digital</span>, comunitario ✦ somos una ong tech para otras ongs, organizaciones, proyectos, ideas y expresiones artísticas<span className={styles.estrellas}> ✦</span> cultivamos juntos un laboratorio de <span className={styles.recuadro}>herramientas</span> digitales para tus redes sociales, tu público y tus acciones educativas y de capacitación ✧ <span className={styles.recuadro}>escribinos</span> para una demo ✧ whatsapp ✧ instagram ✦ 2022 copyright atlanticx.org ➠</p></div>
+     <div className={styles.titulo}><p><span className={styles.recuadro}>un jardín digital</span> comunitario ✦ somos una ong tech para otras ongs, organizaciones, proyectos, ideas y expresiones artísticas<span className={styles.estrellas}> ✦</span> cultivamos juntos un laboratorio de <span className={styles.recuadro}>herramientas</span> digitales para tus redes sociales, tu público y tus acciones educativas y de capacitación ✧ <span className={styles.recuadro}>escribinos</span> para una demo ✧ whatsapp ✧ instagram ✦ 2022 copyright atlanticx.org ➠</p></div>
 
     <div className={styles.tituloMobile}><p>estudio web ✦ el color es tuyo ✦ diseño ✧ procesos ✦ deploy ✦ comunidades ✦ eventos educación ✦ cultura ✦ ux/ui ✦ agência web ✧ el color es tuyo ✦ design ✦ projetos ✦ deploy ✧ comunidades ✦ eventos virtuais ✦ educação ✦ cultura ✦ web studio ✦ el color es tuyo ✧ design ✦</p></div>
 

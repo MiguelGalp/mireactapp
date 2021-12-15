@@ -652,7 +652,7 @@ display: none;
 }
 
 .notion-page-scroller {
-  overflow: hidden;
+  overflow: visible;
   max-height: 768px;
   min-height: 768px;
 }

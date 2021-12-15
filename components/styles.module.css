@@ -21,6 +21,7 @@
   text-align: justify;
   padding: 33px 23px ;
   display: flex;
+  z-index: 0;
 }
 
 .estrellas {
@@ -345,7 +346,7 @@ cursor: pointer;
    background: black;
    height: 80px;
    width: 52px;
-   transform: translateY(40px);
+   transform: translateY(40px) !important;
 }
 
 
@@ -375,7 +376,7 @@ cursor: pointer;
   cursor: pointer;
   
   opacity: 0; /* hide this */
-  z-index: 2; /* and place it over the hamburger */
+  z-index: 3; /* and place it over the hamburger */
   
   -webkit-touch-callout: none;
 }
@@ -654,31 +655,70 @@ cursor: pointer;
 
 .titulo {
 width: 97%;
-font-size: 1.6rem;
+font-size: 1.4rem;
 white-space: pre-wrap;
-margin-top: 48vh;
+margin-top: 3vh;
+text-align: center;
 }
 
 .titulo:before, .titulo:after {
 border: unset;
 
 }
+
+.footer nav {
+top: -7vh;
+left: 44vw;
 }
 
-@media only screen and (max-width: 376px)  {}
+}
 
-@media only screen and (max-width: 320px)  {
+@media only screen and (max-width: 414px)  {
+.titulo {
+width: 97%;
+font-size: 1.4rem;
+white-space: pre-wrap;
+margin-top: 3vh;
+text-align: center;
+}
+
+/*
+.titulo:before, .titulo:after {
+border: unset;
+
+}
+*/
+
+.footer nav {
+top: -7vh;
+left: 44vw;
+}
+
+.menu  {
+
+ top: 80%;
+  left: -650%;
+  
+  width: 440px;
+  margin: -100px 0 0 -50px;
+  padding: 80px;
+  padding-top: 85px;
+  opacity: 1;
+  border-radius: 10%;
+  background: #ededed;
+
+
+}
+
+}
+
+@media only screen and (max-width: 375px)  {
 
 .titulo {
 width: 97%;
-font-size: 1.6rem;
+font-size: 1.3rem;
 white-space: pre-wrap;
-margin-top: 90vh;
-}
-
-.titulo:before, .titulo:after {
-border: unset;
-
+margin-top: 3vh;
 }
 
 }
@@ -689,9 +729,9 @@ border: unset;
 
 .titulo {
 width: 97%;
-font-size: 1.6rem;
+font-size: 1.4rem;
 white-space: pre-wrap;
-margin-top: 40vh;
+margin-top: 9vh;
 }
 
 .titulo:before, .titulo:after {
@@ -699,12 +739,21 @@ border: unset;
 
 }
 
+.footer nav {
+ left:27vw;
+   top:-10vh;
 
+}
+}
 
+@media only screen and (max-height: 375px)  {
+
+.footer nav {
+top: -15vh;
 
 }
 
-@media only screen and (max-height: 375px)  {}
+}
 
 
 
