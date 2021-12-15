@@ -95,7 +95,7 @@ export const Footer: React.FC<{
             </ul>
          </div>
        </nav>
-     <div className={styles.titulo}><p><span className={styles.recuadro}>un jardín digital</span>, exótico: una ong tech para organizaciones y proyectos en transición <span className={styles.estrellas}>✦</span> un laboratorio de <span className={styles.recuadro}>software</span>  para tu comunidad social, cultural y educativa ✧ <span className={styles.recuadro}>escribinos</span> para una demo, para contarnos sobre tus acciones, tus necesidades, para hacer tu evento, tu contenido, tu web, tu nueva herramienta ✦ <span className={styles.recuadro}>desarrollos</span>, workflows y deploys para el arte <span className={styles.estrellas}>✦</span> obras ✦ ideas ✦ labs ✦ experimentación ✦ correo ✧ whatsapp ✧ instagram ✦ twitter </p></div>
+     <div className={styles.titulo}><p><span className={styles.recuadro}>un jardín digital</span>, comunitario ✦ somos una ong tech para otras ongs, organizaciones, proyectos, ideas y expresiones artísticas<span className={styles.estrellas}> ✦</span> cultivamos juntos un laboratorio de <span className={styles.recuadro}>herramientas</span> digitales para tus redes sociales, tu público y tus acciones educativas y de capacitación ✧ <span className={styles.recuadro}>escribinos</span> para una demo ✧ whatsapp ✧ instagram ✦ 2022 copyright atlanticx.org ➠</p></div>
 
     <div className={styles.tituloMobile}><p>estudio web ✦ el color es tuyo ✦ diseño ✧ procesos ✦ deploy ✦ comunidades ✦ eventos educación ✦ cultura ✦ ux/ui ✦ agência web ✧ el color es tuyo ✦ design ✦ projetos ✦ deploy ✧ comunidades ✦ eventos virtuais ✦ educação ✦ cultura ✦ web studio ✦ el color es tuyo ✧ design ✦</p></div>
 

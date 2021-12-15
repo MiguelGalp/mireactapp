@@ -6,6 +6,8 @@
 
 
 
+
+
 .titulo {
   font-family: monospace;
   font-size: 1.2rem;
@@ -17,7 +19,7 @@
   word-wrap: break-word;
   width: 425px;
   text-align: justify;
-  padding: 13px 23px 13px 23px;
+  padding: 33px 23px ;
   display: flex;
 }
 

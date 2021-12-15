@@ -40,6 +40,16 @@
 
 */
 
+
+.notion-viewport {
+
+  background: #F1DDCF !important;
+  width: 50%;
+  margin-left: 25vw;
+ margin-top: 10vh;
+margin-bottom: 10vh;
+}
+
 .notion-block-899e749abd5e409eb18b3e2d155cabd3 span {
  color: var(--bg-color);
 
